@@ -1,0 +1,9 @@
+.not-logged-in .navbar-nav > li.admin-dashboard {display: none;}
+.navbar-nav > li.admin-dashboard a {
+    background: #006699;
+    color: #fff;
+}
+.navbar-nav > li.admin-dashboard a:hover {
+    background: #99cc33;
+    color: #fff;
+}

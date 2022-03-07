@@ -1,0 +1,841 @@
+/*google font*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.area_head {
+    color: #353535;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.title_text {
+    text-align: left;
+    display: inline-block;
+}
+
+.title_text h2 {
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: -12px;
+}
+
+.section_title {
+    text-align: center;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.title_text img {}
+
+/*end of common css*/
+
+/********************
+*********************
+
+
+-----HEADER START-----
+
+*********************
+*********************/
+
+.main_menue {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    padding: 60px 0;
+}
+
+.menue_bar {
+    float: left;
+    width: 70%;
+
+}
+
+.menue_bar ul {
+    text-align: right;
+}
+
+.menue_bar ul li {
+    display: inline-block;
+    padding: 84px 0;
+    padding-left: 33px;
+}
+
+.menue_bar ul li a {
+    color: #fdfdfe;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    position: relative;
+    transition: all .3s linear;
+}
+
+.menue_bar ul li a:hover {
+    color: #744fa0;
+}
+
+.menue_bar ul li a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;
+    background: #744fa0;
+    width: 0;
+    height: 1px;
+    transition: all .3s linear;
+
+}
+
+.menue_bar ul li a:hover:before {
+    width: 100%;
+}
+
+.menue_bar ul li a.nav_button {
+    padding: 0;
+    padding: 8px 20px;
+    background-color: #744fa0;
+    line-height: 1;
+    border-radius: 3px;
+}
+
+.menue_bar ul li a.nav_button:hover {
+    display: none;
+}
+
+.menue_bar ul li a.nav_button:before {
+    display: none;
+}
+
+
+/********************
+*********************
+
+
+-----BANNER START-----
+
+
+*********************
+*********************/
+.banner_are {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_overlay {
+    background: rgba(0, 0, 0, .6);
+
+}
+
+.banner_text {
+    text-align: right;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 122px;
+    ;
+    padding-left: 700px;
+}
+
+.banner_text h1 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.banner_text h1 span {
+    color: #744fa0;
+}
+
+.banner_text h2 {
+    font-weight: 300;
+}
+
+.banner_blank {
+    width: 200px;
+    height: 1px;
+    background: #fff;
+    float: right;
+    margin-top: 30px;
+}
+
+.banner_text p {
+    padding-top: 68px;
+}
+
+.banner_btn {
+    padding-top: 50px;
+}
+
+.banner_btn a {
+    width: 190px;
+    height: 59px;
+    background: #fff;
+    color: #353535;
+    border-radius: 4px;
+    margin-left: 16px;
+    transition: all .5s linear;
+}
+
+.banner_btn a:hover {
+    background: #744fa0;
+    color: #fff;
+}
+
+.banner_btn a i {
+    float: left;
+    padding: 13px 0;
+    padding-left: 20px
+}
+
+.banner_btn .btn_text {
+    text-align: left;
+    float: left;
+    display: inline;
+    padding: 5px 10px;
+    ;
+}
+
+.btn_text p {
+    padding: 0;
+}
+
+
+
+
+/********************
+*********************
+
+
+-----ABOUT START-----
+
+
+*********************
+*********************/
+
+
+
+
+
+.about_text {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 130px;
+}
+
+
+.text_area {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.text_area p {
+    padding-top: 30px;
+    color: #777777;
+}
+
+.about_img {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-top: 80px;
+}
+
+/********************
+*********************
+
+
+----FEATURES START----
+
+
+*********************
+*********************/
+
+.features_area {
+    background: #f1f1f1;
+}
+
+.features_contact {
+    float: left;
+    width: 38%;
+}
+
+.features_contact ul li a {
+    color: #353535;
+    position: relative;
+    transition: all .5s linear;
+}
+
+.features_contact ul li:hover a {
+    color: #744fa0;
+}
+
+.features_contact ul li a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #353535;
+    transition: all .5s linear;
+}
+
+.features_contact ul li a:hover:before {
+    background: #744fa0;
+}
+
+.features_contact ul li a i {
+    float: left;
+}
+
+.contact_text {
+    float: left;
+    padding-left: 10px;
+}
+
+.contact_text p {
+    color: #777777;
+    transition: all .5s linear;
+}
+
+.features_contact ul li:hover a .contact_text p {
+    color: #744fa0;
+}
+
+.features_contact ul li a.last_one:before {
+    display: none;
+}
+
+.features_contact ul li a h4 {
+    text-transform: uppercase;
+}
+
+.features_ss {
+    float: left;
+    width: 32%;
+}
+
+.features_text {
+    text-align: right;
+    float: left;
+    width: 30%;
+    padding-top: 73px;
+}
+
+.features_text h3 {
+    padding-bottom: 30px;
+    color: #353535;
+    font-weight: 700;
+}
+
+.features_text p {
+    padding-bottom: 34px;
+    color: #777777;
+}
+
+/********************
+*********************
+
+
+--SCREENSHOTS START--
+
+
+*********************
+*********************/
+
+
+.single_img {
+    float: left;
+    width: 17.89%;
+    padding-bottom: 20px;
+}
+
+.single_img img {
+    width: 100%;
+}
+
+
+/********************
+*********************
+
+
+-----VIDEO START-----
+
+
+*********************
+*********************/
+
+
+.video_img {
+    background-image: url(../images/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.video_overlay {
+    background: rgba(0, 0, 0, .6);
+}
+
+.video_icon {
+    padding: 216px 50%;
+    transform: translateX(-3%);
+}
+
+.video_icon a {
+    color: #feffff;
+}
+
+/********************
+*********************
+
+
+-----PRICING START-----
+
+
+*********************
+*********************/
+
+
+
+
+.single_plan {
+    float: left;
+    width: 262.5px;
+    height: 404px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #f1f1f1;
+    position: relative;
+}
+
+.plan_head {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #353535;
+    text-align: center;
+    background: #f1f1f1;
+    padding: 20px 0;
+    transition: all .5s linear;
+}
+
+.single_plan:hover .plan_head {
+    background: #744fa0;
+    color: #ffffff;
+}
+
+.plan_price {
+    padding: 20px 74px;
+}
+
+.price_text {
+    width: 112px;
+    height: 112px;
+    border: 2px solid;
+    border-color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.price_text h2 {
+    font-weight: 700;
+    color: #353535;
+    font-size: 50px;
+    ;
+}
+
+.price_text span {
+    font-size: 15px;
+}
+
+.price_text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #555555;
+}
+
+.price_list {
+    text-align: center;
+    padding: 30px 0;
+    background: #f1f1f1;
+}
+
+.price_list a {
+    color: #555555;
+    padding-bottom: 10px;
+}
+
+.price_btn {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.price_btn a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #fff;
+    padding: 5px 20px;
+    border-color: #353535;
+    border-radius: 3px;
+    color: #353535;
+    border: 1px solid;
+    transition: all .5s linear;
+}
+
+.single_plan:hover .price_btn a {
+    border-color: #744fa0;
+    background: #744fa0;
+    color: #ffffff;
+}
+
+/********************
+*********************
+
+
+-----TEAM START-----
+
+
+*********************
+*********************/
+
+
+
+
+.single_team {
+    float: left;
+    width: 31.5%;
+    margin-top: 116px;
+    transition: all .5s linear;
+}
+
+.single_team:hover {
+    margin-top: 30px;
+}
+
+.team_img {
+    position: relative;
+    z-index: 99;
+}
+
+.team_img img {
+    width: 100%;
+
+}
+
+.team_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 98.5%;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s linear;
+}
+
+.team_img img:hover .team_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay_icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-20%);
+}
+
+.overlay_icon a {
+    color: #353535;
+    background: #f1f1f1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s linear;
+
+}
+
+.overlay_icon a:hover {
+    color: #ffffff;
+    background: #1da1f2;
+}
+
+.team_text {
+    text-align: center;
+    z-index: 9;
+    padding: 30px 69px;
+    border: 1px solid;
+    border-color: #cccccc;
+    transform: translateY(-105%);
+    transition: all .5s linear;
+}
+
+.single_team:hover .team_text {
+    transform: translateY(-10%);
+}
+
+.team_text h3 {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.team_text span {
+    text-transform: none;
+    font-weight: lighter;
+}
+
+.team_text p {
+    padding-top: 8px;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/********************
+*********************
+
+
+---FEEDBACK START---
+
+
+*********************
+*********************/
+
+
+
+
+.feedback_img {
+    background-image: url(../images/feedback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feedback_overlay {
+    background: rgba(0, 0, 0, .7);
+    padding: 30px 0;
+}
+
+.review_text {
+    text-align: center;
+    width: 800px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 66px;
+    padding-top: 30px;
+    padding-bottom: 11px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.review_text:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 93%;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.review_text p {
+    color: #777777;
+}
+
+.review_star {
+    padding-top: 25px;
+}
+
+.review_star i {
+    color: #744fa0;
+}
+
+.review_text h2 {
+    font-weight: 700;
+    color: #353535;
+}
+
+.review_text span {
+    color: #555555;
+}
+
+.review_img {
+    width: 471px;
+    margin: 0 auto;
+}
+
+.single_client {
+    float: left;
+    position: relative;
+}
+
+.single_client img {
+    display: inline-block;
+}
+
+.client_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 95%;
+    background: rgba(255, 255, 255, .50);
+    border-radius: 50%;
+}
+
+/********************
+*********************
+
+
+-----TOUCH START-----
+
+*********************
+*********************/
+
+
+
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+    width: 357.2px;
+    height: 50px;
+    border: 1px solid #353535;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.message {
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #353535;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 170px;
+}
+
+.touch_btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fefefe;
+    margin-left: 46%;
+    padding: 5px 19px;
+    border: 1px solid #744fa0;
+    background: #744fa0;
+    border-radius: 3px;
+}
+
+
+/********************
+*********************
+
+
+-----BOTTOM START-----
+
+*********************
+*********************/
+
+
+.bottom_area {
+    background: #353535;
+}
+
+.bottom_logo {
+    text-align: center;
+}
+
+.bottom_link {
+    text-align: center;
+}
+
+.bottom_link a {
+    width: 50px;
+    height: 50px;
+    color: #353535;
+    border-radius: 50%;
+    background: #f1f1f1;
+    line-height: 55px;
+    margin-right: 5px;
+    transition: all .5s linear;
+}
+
+.bottom_link a:hover {
+    color: #ffffff;
+    background: #1da1f2;
+}
+
+.bottom_link i {
+    font-size: 25px;
+}
+
+.copy_text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.copy_text p {
+    color: #e5e5e5;
+}
+
+.copy_text span {
+    color: #744fa0;
+}

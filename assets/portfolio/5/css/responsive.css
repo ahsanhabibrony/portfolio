@@ -1,0 +1,106 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .call_button button {
+        width: 470px;
+        height: 92px;
+    }
+
+    .footer_middle {
+        margin-bottom: 50px;
+    }
+
+    .footer_end {
+        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .call_button button {
+        width: 470px;
+        height: 92px;
+    }
+
+    .footer_middle {
+        margin-bottom: 50px;
+    }
+
+    .footer_end {
+        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    /****** medium device css end ******/
+
+
+
+
+}
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+    .call_button button {
+        width: 470px;
+        height: 92px;
+    }
+
+    .footer_middle {
+        margin-bottom: 50px;
+    }
+
+    .footer_end {
+        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    /****** small device css end ******/
+    .form_btn1 i {
+        display: none;
+    }
+
+    .call_button button {
+        width: 234px;
+        height: 181px;
+    }
+
+    .work_area1 p {
+        padding-right: 0px;
+    }
+
+    .work_area2 h3 {
+        padding-bottom: 30px;
+        padding-top: 45px;
+    }
+
+    .client_location h3 {
+        padding-top: 30px;
+    }
+
+    .footer_end {
+        padding-top: 7px;
+        padding-bottom: 28px;
+    }
+
+}

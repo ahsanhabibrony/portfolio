@@ -1,0 +1,762 @@
+/*--------------------google fonts--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Fira+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Patua+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*------------------END OF COMMON CSS------------------*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------BANNER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+
+
+.hero-section-thankyou {
+    padding-bottom: 165px;
+}
+
+.hero-section-thankyou h1 {
+    font-family: "Patua One", cursive;
+    font-size: 25.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -12px;
+    margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+    .hero-section-thankyou h1 {
+        font-size: 35.5px;
+    }
+}
+
+.thankyou-timer-container {
+    border-radius: 7px;
+    background-color: rgba(7, 7, 8, 0.36);
+    padding: 30px 15px;
+    width: 100%;
+    position: relative;
+}
+
+@media (min-width: 576px) {
+    .thankyou-timer-container {
+        width: 474px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px 50px;
+    }
+}
+
+.thankyou-timer-container h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* @media (min-width: 576px) {
+        .thankyou-timer-container h5 {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    } */
+
+.when-text {
+    font-family: 'Caveat', cursive;
+    font-size: 29px;
+    font-weight: bold;
+    color: #8de381;
+    text-align: center;
+    line-height: 1;
+}
+
+.thankyou-timer-container .when-text {
+    position: absolute;
+    left: -41px;
+    top: 22px;
+}
+
+@media (min-width: 576px) {
+    .thankyou-timer-container .when-text {
+        display: inline-block;
+    }
+}
+
+.hero-section-tools {
+    background-color: #121214;
+    padding-top: 50px;
+    padding-bottom: 226px;
+    position: relative;
+}
+
+.hero-section-tools .logo {
+    width: 133px;
+    margin-bottom: 50px;
+}
+
+.hero-section-tools h1 {
+    font-family: "Patua One", cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #fdfbfe;
+    margin: -26px auto 5px;
+}
+
+@media (min-width: 992px) {
+    .hero-section-tools h1 {
+        width: 58%;
+    }
+}
+
+.hero-section-tools .container {
+    position: relative;
+    z-index: 9;
+}
+
+.hero-section-tools .banner-feature {
+    width: 100%;
+    height: 74px;
+    font-size: 24.5px;
+    line-height: 1.65;
+    letter-spacing: 4.9px;
+    text-align: center;
+    color: #8de381;
+}
+
+@media (min-width: 768px) {
+    .hero-section-tools .banner-feature {
+        width: 592px;
+        height: 74px;
+    }
+}
+
+.hero-section-tools .layer3 {
+    background-position: center center;
+    left: 0;
+    background-size: 630px;
+}
+
+.hero-section-tools .tlayer4,
+.hero-section-tools .tlayer3,
+.hero-section-tools .tlayer2,
+.hero-section-tools .shape5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.hero-section-tools .tlayer4 {
+    background-image: url("../images/layer4%401x.png");
+    z-index: 4;
+    opacity: 0.3;
+}
+
+.hero-section-tools .tlayer3 {
+    background-image: url("../images/layer3%401x.png");
+    z-index: 3;
+    opacity: 0.2;
+}
+
+.hero-section-tools .tlayer2 {
+    background-image: url("../images/layer2%401x.png");
+    z-index: 2;
+    opacity: 0.05;
+}
+
+.hero-section-tools .shape5 {
+    background-image: url("../images/shape5%401x.png");
+    z-index: 1;
+}
+
+.shape7 {
+    background-image: url(../images/illustrations.png);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center 30px;
+}
+
+.neon3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/neon3.png);
+    background-repeat: no-repeat;
+    background-position: center top 6px;
+    z-index: 1;
+    opacity: 0.15;
+}
+
+.congrats-text {
+    font-family: 'Damion', cursive;
+    font-size: 48.5px;
+    line-height: 0;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    color: #cf5dfe;
+    text-shadow: 0px 0px 5px #8949ff;
+}
+
+.congrats-text img {
+    margin-top: 20px;
+}
+
+
+/*--*********************************
+        ---------------------------------
+        ---------BANNER CSS END----------
+        ---------------------------------
+        *********************************--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--*********************************
+        ---------------------------------
+        --------MIDDLE CSS START---------
+        ---------------------------------
+        *********************************--*/
+
+
+
+.what-next-text {
+    font-family: 'Caveat', cursive;
+    font-size: 23.5px;
+    /* font-weight: bold; */
+    color: #1f1e2a;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.thankyou-left {
+    margin-bottom: 12px;
+}
+
+.thankyou-features-section {
+    background-color: #f4f3f9;
+    padding-bottom: 95px;
+    background-image: url(../images/bg1.svg), url(../images/bg2.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -230px, right;
+    background-position-y: 35%, -394%;
+    background-size: 387px;
+}
+
+@media (min-width: 992px) {
+    .thankyou-features-section {
+        background-position-x: calc(0% - 305px), calc(100% + 458px);
+        background-position-y: 25%, -312px;
+        background-size: auto;
+    }
+}
+
+.thankyou-right-wrapper {
+    padding: 38px 34px;
+    background-color: #1f1f23;
+    background-image: url("../images/thankyou-right-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3px;
+}
+
+.thankyou-right-wrapper h2 {
+    font-family: "Patua One", cursive;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8ce381;
+    margin-bottom: 30px;
+}
+
+.thankyou-right-wrapper ul {
+    padding-left: 23px;
+    margin-bottom: 0;
+}
+
+.thankyou-right-wrapper ul li {
+    list-style: none;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.thankyou-right-wrapper ul li:before {
+    content: '';
+    position: absolute;
+    left: -22px;
+    top: 9px;
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+    background-color: #8ce381;
+}
+
+.thankyou-left {
+    margin-bottom: 12px;
+}
+
+.thankyou-left-wrapper {
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 25px 20px !important;
+}
+
+@media (min-width: 768px) {
+    .thankyou-left-wrapper {
+        padding: 25px 45px !important;
+    }
+}
+
+.media-thankyou {
+    margin-bottom: 30px;
+}
+
+.media-thankyou .media-thankyou-count {
+    width: 38px;
+    height: 38px;
+    border: solid 1px #17161f;
+    font-family: "Patua One", cursive;
+    font-size: 21.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: center;
+    color: #13121a;
+    border-radius: 20px;
+    padding: 6px 13px;
+    /*float: left;*/
+}
+
+.media-thankyou .media-body {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #13121a;
+    /*padding-left: 10px;*/
+    /*float: left;*/
+    /*width: calc(100% - 38px);*/
+}
+
+.media-thankyou .media-body h5 {
+    font-family: "Patua One", cursive;
+    font-size: 21.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: left;
+    color: #13121a;
+    /*padding-top: 7px;*/
+}
+
+.media-thankyou-heading {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.media-thankyou-heading h5 {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.media-thankyou-text {
+    padding-left: 48px;
+}
+
+/*h5.p-t{*/
+/*padding-top: 0 !important;*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+/*h5.p-t{*/
+/*padding-top: 7px !important;*/
+/*}*/
+/*}*/
+
+.media-thankyou .media-body .link-div {
+    border-radius: 3px;
+    background-color: #d4fbcf;
+    display: block;
+    padding: 15px 12px;
+    margin: 18px 0;
+    font-size: 15px;
+}
+
+.media-thankyou .media-body .link-div a {
+    color: #111016;
+    word-wrap: break-word;
+}
+
+.media-thankyou .media-body>a {
+    color: #3d67f1;
+}
+
+
+
+
+/*--*********************************
+        ---------------------------------
+        ---------MIDDLE CSS END----------
+        ---------------------------------
+        *********************************--*/
+
+
+
+
+
+/*--*********************************
+        ---------------------------------
+        --------VIDEO CSS START---------
+        ---------------------------------
+        *********************************--*/
+
+
+.thankyou-features-section .warning-box {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-radius: 0;
+    margin-top: -130px;
+    position: relative;
+    z-index: 99999;
+}
+
+
+
+@media (min-width: 768px) {
+    .thankyou-features-section .warning-box {
+        width: 620px;
+        height: 349px;
+    }
+}
+
+
+.thankyou-features-section .warning-box:before {
+    top: -14px;
+}
+
+@media (min-width: 992px) {
+    .thankyou-right {
+        padding-left: 12px !important;
+    }
+}
+
+
+
+/*--*********************************
+        ---------------------------------
+        ---------VIDEO CSS END----------
+        ---------------------------------
+        *********************************--*/
+
+
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------LECTURE CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.single_slide {
+    background-position-x: 27% !important;
+    background-position-y: -154px !important;
+}
+
+
+.lecture_overlay {
+    padding: 100px 0;
+}
+
+.lecture_overlay h2 {
+    margin-bottom: 25px;
+    font-size: 28.5px;
+    font-family: "Patua One", cursive;
+    color: #8de381;
+    padding-right: 110px;
+    text-transform: uppercase;
+}
+
+.lecture_overlay p {
+    color: #d1c6dd;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    line-height: 1.44;
+    padding-right: 110px;
+}
+
+.lecture_overlay p span {
+    font-weight: 700;
+    color: #fff;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------LECTURE CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    ------SUB-FOOTER CSS START-------
+    ---------------------------------
+    *********************************--*/
+
+.sub-footer {
+    background: #1d1d23;
+}
+
+.sub-footer-logo img {
+    padding: 50px 0;
+}
+
+.need-help-text {
+    font-size: 15px;
+    font-family: montserrat, sans-serif;
+    color: #6d6d7f;
+    font-weight: 700;
+}
+
+.sub-footer-support-link {
+    font-size: 16px;
+    font-family: rubik, sans-serif;
+    color: #c0bdb4;
+    transition: all 0.3s linear;
+    padding-bottom: 50px;
+}
+
+.sub-footer-support-link:hover {
+    text-decoration: none;
+    color: #ffdb5e;
+}
+
+/*--*********************************
+    ---------------------------------
+    -------SUB-FOOTER CSS END--------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------FOOTER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.site-footer {
+    background-color: #18181a;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-menu {
+    margin: 30px 0;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    position: relative;
+}
+
+.footer-menu ul li a {
+    font-family: fira sans, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #5e5e76;
+    transition: all linear 300ms;
+}
+
+.footer-menu ul li a:hover,
+.footer-menu ul li a:focus {
+    text-decoration: none;
+    color: #ffe179;
+}
+
+.footer-copyright-text {
+    font-family: fira sans, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6d6d7f;
+    margin-bottom: 0;
+    line-height: 2em;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------FOOTER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------COOKIE CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#252e39"
+        },
+        "button": {
+          "background": "#14a7d0"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": " We may use cookies to offer you a better experience, analyze site traffic and serve targeted advertisements.",
+        "dismiss": " I Accept",
+        "href": "https://igor.tips/legal-pages"
+      }
+    });
+    </script>
+
+
+/*--*********************************
+    ---------------------------------
+    ---------COOKIE CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------BANNER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------BANNER CSS END----------
+    ---------------------------------
+    *********************************--*/

@@ -1,0 +1,233 @@
+.modal-backdrop.in {
+    filter: alpha(opacity=80);
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
+}
+
+#leave-popup {
+    font-family: Patua One, cursive;
+    text-align: center
+}
+
+#leave-popup .img-responsive {
+    margin: 0 auto
+}
+
+#leave-popup .modal-dialog {
+    width: 90vw
+}
+
+#leave-popup .modal-dialog .popup-header {
+    position: relative;
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+    *zoom: 1
+}
+
+#leave-popup .modal-dialog .popup-header:before, #leave-popup .modal-dialog .popup-header:after {
+    display: table;
+    content: ''
+}
+
+#leave-popup .modal-dialog .popup-header:after {
+    clear: both
+}
+
+#leave-popup .modal-dialog .popup-header h1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    font-size: 7vw;
+    font-weight: 400;
+    line-height: 54px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-grid-row-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    box-lines: single;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap
+}
+
+#leave-popup .modal-dialog .popup-header h1 > * {
+    box-sizing: border-box;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+#leave-popup .modal-dialog .popup-header h1 img {
+    margin-right: 15px
+}
+
+#leave-popup .modal-dialog .popup-header .popup-dismiss {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 31px;
+    height: 31px;
+    margin-top: -15.5px;
+    cursor: pointer
+}
+
+#leave-popup .modal-dialog .modal-content {
+    border-radius: 0
+}
+
+#leave-popup .modal-dialog .modal-body {
+    padding: 30px 0
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option {
+    padding: 0 30px;
+    text-align: center
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option h3 {
+    margin: 30px 0 20px;
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #1b283b
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option h4 {
+    margin: 20px 0;
+    font-family: Fira Sans, sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #1b283b
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option p {
+    margin-bottom: 30px;
+    font-family: Fira Sans, sans-serif;
+    font-size: 2.6vw;
+    font-weight: 300;
+    color: #6f7685
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option a {
+    display: block;
+    width: 100%;
+    height: 51px;
+    font-family: Fira Sans, sans-serif;
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 51px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #2e5480;
+    border-radius: 15px;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option a:hover {
+    text-decoration: none;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option a.secondary-btn {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #f68320;
+}
+
+#leave-popup .modal-dialog .modal-body .popup-option a i {
+    font-style: italic;
+    font-weight: 700
+}
+
+@media (max-width: 767px) {
+    #leave-popup .modal-dialog .popup-option.-last {
+        padding-top: 30px !important;
+        margin-top: 30px !important;
+        border-top: 1px solid #eee
+    }
+}
+
+@media (min-width: 768px) {
+    #leave-popup .modal-dialog .popup-header h1 {
+        font-size: 54px
+    }
+
+    #leave-popup .modal-dialog .col-sm-6:first-child {
+        border-right: 1px solid #eee;
+        border-bottom: 0
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #leave-popup .modal-dialog .modal-body {
+        padding: 3vw 0
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option {
+        padding: 0 3vw
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option h3 {
+        font-size: 3vw
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option h4 {
+        font-size: 1.5vw
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option p {
+        font-size: 1.35vw
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option a {
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    #leave-popup .modal-dialog {
+        width: 1052px
+    }
+
+    #leave-popup .modal-dialog .modal-body {
+        padding: 50px 0
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option {
+        padding: 0 40px
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option h3 {
+        font-size: 34px
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option h4 {
+        font-size: 17px
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option p {
+        font-size: 16px
+    }
+
+    #leave-popup .modal-dialog .modal-body .col-sm-6 .popup-option a {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

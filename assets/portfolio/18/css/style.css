@@ -1,0 +1,489 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+/* End of common CSS */
+
+/* DISPLAY BTN */
+.display_btn {
+    position: fixed;
+    border: 1px solid #FF9160;
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF9160;
+    text-align: center;
+    padding-top: 45px;
+    bottom: 0;
+    right: 16%;
+    z-index: 99999999;
+}
+
+.display_btn p {
+    color: #FFF1A0;
+}
+
+.display_btn h6 {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.display_btn i {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+/*=========================
+
+    02.HEADER AREA CSS
+
+=========================*/
+
+
+.navbar {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2B388F;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2B388F;
+}
+
+.nav-link.nav_btn {
+    border: 1px solid;
+    padding: 4px 16px !important;
+}
+
+.navbar-light .navbar-nav:nth-child(4) {
+    margin-top: 2px;
+}
+
+/*=========================
+
+    03.BANNER AREA CSS
+
+=========================*/
+
+
+.banner_area {
+    background: #EAECF4;
+}
+
+.banner_bg {
+    background-image: url(../images/background-illustration.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_items {}
+
+.banner_txt {
+    font-weight: 400;
+    padding-top: 50%;
+}
+
+.banner_txt p {
+    color: #2B388F;
+    font-size: 26px;
+    margin-left: 88px;
+    padding: 75px 0;
+}
+
+.banner_txt p span {
+    font-weight: 600;
+}
+
+.banner_img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.banner_img .img-1 {
+    width: 100%;
+    position: absolute;
+    top: 77px;
+    right: 0px;
+}
+
+.banner_img .img-2 {
+    width: 100%;
+    position: absolute;
+    top: -36%;
+    left: -37%;
+    z-index: 99;
+    transform: scale(.40);
+}
+
+/*=========================
+
+    04.SERVICE AREA CSS
+
+=========================*/
+
+
+service_area {
+    position: relative;
+}
+
+.theme_png {
+    position: absolute;
+    top: 95%;
+    left: 0;
+}
+
+.shared_affairs_txt {
+    background: #F9EFE4;
+    margin-top: 25%;
+    padding: 42px 45px 26px 66px;
+    color: #2B388F;
+}
+
+.shared_affairs_txt p {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.shared_affairs_txt p span {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.single_service {
+    padding-top: 70px;
+}
+
+.single_service .service_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.single_service .service_head h2 {
+    color: #2B388F;
+    padding-top: 25px;
+}
+
+.single_service .service_txt p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.service_bottom {
+    padding-top: 80px;
+}
+
+.service_bottom p {
+    font-size: 25px;
+    color: #2B388F;
+}
+
+.service_bottom p span {
+    font-weight: 600;
+}
+
+/*=========================
+
+    05.W.PIC AREA CSS
+
+=========================*/
+
+.web_pic_area {
+    background: #F0F2F8;
+}
+
+.web_pic {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*=========================
+
+    06.INFO AREA CSS
+
+=========================*/
+
+.info_area {}
+
+.single_info {
+    padding-top: 100px;
+}
+
+.single_info .info_img {
+    Width: 180px;
+    Height: 180px;
+    margin: auto;
+}
+
+.single_info .info_txt {
+    font-size: 20px;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none !important;
+    font-size: 25px;
+    border-bottom: 1px solid #B6BBD9;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.btn-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.card {
+    background-color: transparent;
+    border: 0;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.card-body {
+    padding-left: 35px;
+}
+
+.btn-link span i {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.faq_head h3 {
+    color: #2B388F;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid #B6BBD9;
+    padding: 25px 20px !important;
+    margin: 0 22px;
+}
+
+.faq {
+    background: #FBFBFD;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 999999;
+}
+
+.faq_link a {
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #2B388F !important;
+    color: #2B388F;
+    padding-top: 10px;
+}
+
+.faq_icon {
+    float: right;
+}
+
+/*=========================
+
+    07.ABOUT AREA CSS
+
+=========================*/
+
+.about_area {
+    background: #F9EFE4;
+    position: relative;
+    margin-top: 150px;
+}
+
+.about_txt {
+    background: #fff;
+    padding: 30px 50px;
+    padding-bottom: 15px;
+    margin-top: 50%;
+    margin-bottom: 20%;
+}
+
+.about_txt h4 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #2B388F;
+}
+
+.about_txt p {
+    font-size: 15px;
+    color: #000000;
+}
+
+.about_float_img-1 {
+    position: absolute;
+    top: -8%;
+    right: 0;
+}
+
+.about_float_img-2 {
+    position: absolute;
+    top: 55%;
+    right: 10%;
+}
+
+.about_area .theme_png {
+    position: absolute;
+    top: -62%;
+    left: 0;
+}
+
+/*=========================
+
+    08.COMMENT AREA CSS
+
+=========================*/
+
+.comment_area {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.single_cmnt {
+    background: #F0F2F8;
+    padding: 60px 0px;
+    padding-bottom: 25px;
+    margin: 100px 0;
+}
+
+.cmnt_img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.cmnt_name p {
+    text-align: center;
+    color: #2B388F;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.cmnt_txt p {
+    font-size: 30px;
+    color: #000000;
+    padding-top: 50px;
+    padding-right: 180px;
+}
+
+.comment_area .theme_png {
+    position: absolute;
+    top: 57%;
+    left: 20px;
+}
+
+/*=========================
+
+    09.FOOTER AREA CSS
+
+=========================*/
+
+.footer_area {
+    background: #171F53;
+    position: relative;
+    z-index: 9999;
+    padding: 100px 40px;
+    padding-bottom: 30px;
+}
+
+.footer_list {
+    color: #fff;
+    display: flex;
+}
+
+.footer_list ul li a {
+    padding-right: 100px;
+}
+
+.list_img {
+    margin-left: -20px;
+}
+
+.text_underline {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #969FD5;
+    font-size: 12px;
+    margin-left: -15px;
+    padding-top: 80px;
+}

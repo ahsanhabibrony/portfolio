@@ -1,0 +1,239 @@
+/*--------------------google fonts--------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+p{
+    margin-bottom: 0!important;
+}
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/*------------------END OF COMMON CSS------------------*/
+
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.main_body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.small_body {
+	width: 50%;
+	background-color: rgba(255, 255, 255, .85);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	border: 4px;
+	border-color: rgba(222, 222, 222, .5);
+	border-radius: 5px;
+}
+.small_body h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #1c1919;
+	text-transform: uppercase;
+}
+.small_body h3 {
+	font-size: 35px;
+	font-weight: 600;
+	color: #444;
+}
+.input1 input {
+	margin: 1px;
+	padding: 10px 20px;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 22px;
+}
+.input2 input {
+	margin: 1px;
+	padding: 10px 20px;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 22px;
+}
+.small_body button {
+	width: 100%;
+	border: 0;
+	background-color: #00b7ff;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 30px;
+	box-shadow: 0px 0px 20px #605c5c;
+	color: #353030;
+	transition: all .3s linear;
+	border-radius: 5px;
+}
+.small_body button:hover {
+    background-color: #2eaee1;
+}
+.small_body p {
+	padding-top: 20px;
+}
+.small_body a {
+	font-size: 15px;
+	padding: 0 15px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-decoration: none;
+}
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/

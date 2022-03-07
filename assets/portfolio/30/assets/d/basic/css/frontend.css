@@ -1,0 +1,574 @@
+/*
+Theme Name: FastJobs Frontend
+Author: FastJobs
+Author URI: http://www.fastjobs.sg
+Description: FastJobs is a platform that connects jobseekers and employers.
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	1. Framework
+/*-----------------------------------------------------------------------------------*/
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 80px;
+}
+
+body.home { padding-top: 0; }
+body.user-page { background: #f5f5f5; }
+
+h1, h2, h3, h4 { font-weight: 500; }
+
+h1 { font-size: 26px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.main-content {
+  margin-bottom: 60px;
+  min-height: 680px;
+}
+
+.affix { top: 90px; z-index: 11; }
+.affix-bottom { position: absolute; }
+
+.font-normal { font-weight: 300; }
+
+.small-text {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.link-text {
+  color: #ff3e97;
+  font-weight: 400;
+}
+.link-text:hover { color: #ff3e97; }
+
+.link-white { color: #fff; }
+.link-white:hover { color: #fff; }
+
+.btn-download {
+  background: url('../../../../img/basic/frontend/fj-img-sprite.png') no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  text-indent: -9999px;
+  width: 202px;
+}
+
+.btn-download.btn-sm {
+  height: 47px;
+  width: 150px;
+}
+
+.btn-download.btn-ios { background-position: 0 0; }
+.btn-download.btn-android { background-position: 0 -63px; }
+
+.btn-download.btn-sm.btn-ios { background-position: 0 -339px; }
+.btn-download.btn-sm.btn-android { background-position: 0 -387px; }
+
+.btn.no-radius {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.btn.no-border { border-color: transparent; }
+
+.btn-default,
+.btn-primary,
+.btn-secondary { font-weight: 500; }
+
+.btn-fblogin {
+  background: #4267b2;
+  color: #fff;
+  font-weight: 500;
+}
+.btn-fblogin.btn-lg { padding: 3px 12px; }
+
+.glyphicon.icon-lg { font-size: 150px; }
+.glyphicon.icon-default { color: #cdcbcb; }
+
+.list-inline { display: inline-block; }
+
+.input-group .form-control {
+  border-left: none;
+  padding-left: 2px;
+}
+
+.form-control {
+  font-size: 16px;
+  height: 37px;
+}
+
+.solid-pink { border-color: #FE8AC7; border-width: 3px; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. Navigation
+/*-----------------------------------------------------------------------------------*/
+.nav-user img.user-photo { margin-right: 10px; }
+
+.nav-user .nav-user-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-user .nav-user-menu > li {
+  margin: 0;
+  padding: 8px 55px;
+}
+
+.nav-user .nav-user-menu a {
+  color: #bec5d5;
+  font-weight: 300;
+}
+
+.nav-user .nav-user-menu a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-dropdown { padding: 0 15px; }
+
+.nav-dropdown .dropdown-menu {
+  background: #1f2c52;
+  border: 0;
+  color: #fff;
+  padding: 0;
+  min-width: 220px;
+  width: auto;
+}
+
+.navbar-nav > li > .dropdown > a { display: block; }
+
+.navbar-nav > li > a,
+.navbar-nav > li > .dropdown > a {
+  color: #bec5d5;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > .dropdown > a:hover,
+.navbar-nav > li > .dropdown > a:focus { text-decoration: none; }
+
+.nav-dropdown .dropdown-menu > li > a {
+  border-bottom: 1px solid #35446d;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.nav-dropdown .dropdown-menu > li > a:hover,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus { 
+  background-color: transparent;
+  color: #ff3e97;
+}
+
+.nav-dropdown .dropdown-menu > li.last > a { border-bottom-color: transparent; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	breadcrumb
+/*-----------------------------------------------------------------------------------*/
+.breadcrumb { 
+  font-size: 12px;
+  padding: 6px 12px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Modal
+/*-----------------------------------------------------------------------------------*/
+.modal { margin-top: 25px; }
+.modal .modal-close {
+  color: #e5e9f2;
+  font-size: 30px;
+  position: absolute;
+  right: -7px;
+  top: -13px;
+  z-index: 10;
+}
+.modal .modal-dialog { width: 500px; }
+.modal .modal-dialog.modal-lg { width: 900px; }
+.modal .modal-body {
+  max-height: calc(100vh - 212px);
+  overflow-y: auto;
+}
+.modal .site-brand {
+  background: url('../../../../img/basic/fastjobs-logo.png') no-repeat left top;
+  background-size: cover;
+  display: inline-block;
+  height: 42px;
+  overflow: hidden;
+  text-indent: -900px;
+  width: 155px;
+}
+.modal .modal-header {
+  background: #1e2c52;
+  color: #fff;
+  padding: 15px 15px 0;
+}
+
+.modal .modal-header > h4 { height: 40px; }
+
+.modal h4 {
+  line-height: 26px;
+  margin: 0 0 5px;
+}
+.modal p { margin-bottom: 20px; }
+
+.modal .btn {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.modal .or-label {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 70px;
+}
+
+.modal-loader {
+  color: #fff;
+  font-weight: 500;
+  margin: auto;
+  top: 30%;
+}
+.modal-loader .modal-dialog { width: 250px !important;}
+.modal-loader .modal-body { padding: 0; }
+.modal-loader .modal-content {
+  background: none;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal-transparent .modal-content {
+  background: rgb(31, 31, 31);
+  background: rgba(0, 0, 0, .65);
+  color: #fff;
+}
+
+.modal-transparent h3 {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 80px;
+}
+
+body.modal-open { overflow: hidden; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	iCheck: custom checkbox/radio
+/*-----------------------------------------------------------------------------------*/
+.icheckbox_minimal,
+.iradio_minimal {
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background: url(../../../../img/basic/icheck.png) no-repeat;
+  border: none;
+  cursor: pointer;
+  -webkit-background-size: 200px 20px;
+  background-size: 200px 20px;
+}
+
+.icheckbox_minimal { background-position: 0 0; }
+.icheckbox_minimal.hover { background-position: -20px 0; }
+.icheckbox_minimal.checked { background-position: -40px 0; }
+.icheckbox_minimal.disabled {
+  background-position: -60px 0;
+  cursor: default;
+}
+.icheckbox_minimal.checked.disabled { background-position: -80px 0; }
+
+.iradio_minimal { background-position: -100px 0; }
+.iradio_minimal.hover { background-position: -120px 0; }
+.iradio_minimal.checked { background-position: -140px 0; }
+.iradio_minimal.disabled {
+  background-position: -160px 0;
+  cursor: default;
+}
+.iradio_minimal.checked.disabled { background-position: -180px 0; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	Back to top
+/*-----------------------------------------------------------------------------------*/
+.fj-back-top {
+  background: rgba(255, 61, 149, 0.8);
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  bottom: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0;
+  padding: 8px 15px;
+  position: fixed;
+  right: 40px;
+  text-align: center;
+  white-space: nowrap;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  visibility: hidden;
+  z-index: 10;
+}
+.fj-back-top.cd-is-visible, .fj-back-top.cd-fade-out, .fj-back-top:hover {
+  color: #fff;
+  transition: opacity .3s 0s, visibility 0s 0s;
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+}
+.fj-back-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.fj-back-top.cd-fade-out { opacity: .5; }
+.fj-back-top:hover {
+  color: #fff;
+  background-color: #ff3d95;
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Footer
+/*-----------------------------------------------------------------------------------*/
+.footer {
+  background: #1b284c;
+  color: #bec5d5;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.footer .navbar-brand { 
+  clear: both;
+  float: none;
+}
+
+.footer .navbar-brand > span.logo {
+  background: url('../../../../img/basic/fastjobs-logo-white.png') no-repeat top left;
+  background-size: 180px 50px;
+  display: inline-block;
+  height: 50px;
+  text-indent: -9999px;
+  width: 180px;
+}
+
+.footer a { color: #bec5d5; }
+.footer a:hover { color: #fff; text-decoration: none; }
+
+.footer ul {
+  margin-bottom: 30px;
+}
+
+.footer ul > li.list-title {
+  color: #7f8594;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer ul > li { margin: 8px 0; }
+
+.footer li.social-network {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer li.social-network > a {
+  background: url('../../../../img/basic/frontend/fj-img-sprite.png') no-repeat;
+  display: inline-block;
+  height: 45px;
+  text-indent: -999px;
+  width: 48px;
+}
+.footer li.social-network > a.facebook { background-position: 0 -127px; }
+.footer li.social-network > a.facebook:hover { background-position: 0 -183px; }
+.footer li.social-network > a.instagram { background-position: -56px -127px; }
+.footer li.social-network > a.instagram:hover { background-position: -56px -183px; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Tablet
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 991px) and (min-width: 768px) {
+  body { font-size: 16px; }
+  
+  .container { width: 100%; }
+
+  .footer .navbar-brand {
+    background-size: 120px 32px;
+    height: 32px;
+    margin-top: 7px;
+    width: 120px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Mobile
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    padding-top: 60px;
+  }
+
+  .navbar-back {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px 15px 10px;
+  }
+
+  .navbar-back:hover { color: #fff; }
+  
+  .navbar-header .navbar-brand-middle {
+    position: absolute;
+    left: 31.555%;
+    top: 16px;
+  }
+  
+  .modal .site-brand {
+    height: 28px;
+    margin-top: 3px;
+    width: 105px;
+  }
+
+  .modal {
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .modal .modal-close {
+    font-size: 16px;
+    left: 15px;
+    top: 13px;
+  }
+  .modal .modal-dialog,
+  .modal .modal-dialog.modal-lg {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .modal .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .modal .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    border: 0;
+  }
+  .modal .modal-body {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    max-height: none !important;
+    width: 100%;
+    font-weight: 300;
+    overflow: auto;
+  }
+
+  .modal .modal-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .modal-footer .btn { margin-top: 0; }
+
+  .modal-loader .modal-dialog { width: auto !important; }
+  .modal-loader .modal-content {
+    background: rgb(31, 31, 31);
+    background: rgba(0, 0, 0, .65);
+  }
+  .modal-loader .modal-body { top: 25%; }
+
+  .modal-mobile-cancel {
+    bottom: 10px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  .modal-mobile-cancel:hover { color: #fff; }
+
+  .modal .btn { padding: 8px 12px; }
+  
+  .modal.fade:not(.in).left .modal-dialog {
+      -webkit-transform: translate3d(-25%, 0, 0);
+      transform: translate3d(-25%, 0, 0);
+  }
+
+  .modal.fade:not(.in).right .modal-dialog {
+      -webkit-transform: translate3d(125%, 0, 0);
+      transform: translate3d(125%, 0, 0);
+  }
+
+  .modal.fade:not(.in).bottom .modal-dialog {
+      -webkit-transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 25%, 0);
+  }
+
+  .modal .or-label { margin-top: 10px; }
+  
+  .modal .text-small { font-size: 14px; }
+
+  .footer .navbar-brand {
+    background-size: 120px 32px;
+    height: 32px;
+    width: 120px;
+  }
+}
+
+.optanon-alert-box-wrapper .banner-content .banner-policy-link {
+    /*color: #FF4081;*/
+    color: #fff;
+}

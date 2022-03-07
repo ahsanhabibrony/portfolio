@@ -1,0 +1,128 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #F7DCB5;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+
+
+/* section head style */
+
+.section_head {}
+
+.section_head h4 {
+    font-family: 'Courgette', cursive;
+    color: #222222;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section_head h2 {
+    font-family: 'Amatic SC', cursive;
+    color: #222222;
+    font-weight: 700;
+    font-size: 55px;
+    padding: 10px 0;
+}
+
+.section_head p {
+    color: #666666;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+
+.theme_btn {
+    text-align: center;
+}
+
+.theme_btn a {
+    background: #FF8200;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* End of common CSS */
+
+/*=========================
+
+    REASONS AREA CSS
+
+=========================*/
+
+
+.items_number {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.items_number h3 {
+    color: #FF8200;
+    font-size: 30px;
+}
+
+.items_content h3 {
+    text-transform: uppercase;
+    font-size: 37px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.items_content {
+    padding-left: 15px;
+    padding-right: 40px;
+}

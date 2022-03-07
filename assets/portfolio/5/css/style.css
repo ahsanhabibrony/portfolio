@@ -1,0 +1,543 @@
+/*--------------------google fonts--------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #EBEBEB;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: disc;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/*------------------END OF COMMON CSS------------------*/
+
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.main_body {
+    background: #fff;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header_text {
+    padding-bottom: 50px;
+}
+
+.header_text h3 {
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 700;
+    color: #2B3C8C;
+    font-size: 26px;
+}
+
+.header_text h3 span {
+    color: rgb(255, 0, 0);
+}
+
+
+.header_brand img {
+    padding-top: 225px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+/*--*********************************
+    ---------------------------------
+    --------FORM CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.form_txt h3 {
+    font-size: 19px;
+    color: #2B3C8C;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.form_txt ul li {
+    padding-bottom: 10px;
+}
+
+.form_txt ul li p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form_txt ul li p span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.form_img img {
+    width: 130px;
+    padding: 0 20px;
+}
+
+.form_main {
+    padding: 0 25px;
+    background: #2B3C8C;
+    padding-bottom: 30px;
+}
+
+.form_main input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form_main textarea::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form_h3_1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+}
+
+.form_p1 {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form_p1 span {
+    font-weight: 700;
+    color: rgb(252, 0, 0);
+}
+
+.input_name input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.input_email input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.input_tel input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input_msg textarea {
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.form_p2 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.form_btn1 {
+    border: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    padding: 4px 26px;
+    margin-bottom: 20px;
+}
+
+.form_btn1 i {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.form_btn2 {
+    border: 0;
+    background: #56cefc;
+    display: flex;
+    margin: 0 auto;
+    padding: 8px 17px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    transition: all .3s linear;
+}
+
+.form_btn2:hover {
+    color: #24bffb;
+    box-shadow: rgba(0, 0, 0, .5) 2px 2px 12px;
+    color: #333;
+}
+
+
+/*--*********************************
+    ---------------------------------
+    ---------FORM CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+/*--*********************************
+    ---------------------------------
+    --------BUTTON CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.call_button button {
+    width: 700px;
+    height: 60px;
+    background: #56cefc;
+    color: #333;
+    border: 0;
+    font-size: 24px;
+    margin: 70px 0;
+    transition: all .3s linear;
+}
+
+.call_button button:hover {
+    color: #24bffb;
+    box-shadow: rgba(0, 0, 0, .5) 2px 2px 12px;
+    color: #333;
+}
+
+.call_button i {
+    font-size: 30px;
+    padding-left: 1px;
+}
+
+/*--*********************************
+     ---------------------------------
+     ---------BUTTON CSS END----------
+     ---------------------------------
+    *********************************--*/
+
+
+/*--*********************************
+    ---------------------------------
+    --------WORK  CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.work_area1 h3 {
+    font-size: 19px;
+    color: #2B3C8C;
+    font-weight: 700;
+}
+
+.work_area1 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-right: 105px;
+    padding-top: 10px;
+}
+
+.work_area1 ul {
+    padding-left: 15px;
+}
+
+.work_area2 h3 {
+    font-size: 19px;
+    color: #2B3C8C;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.work_area2 ul {
+    padding-left: 15px;
+}
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------WORK CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------REVIEW CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.Review_area h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2B3C8C;
+    padding-bottom: 20px;
+}
+
+.Review_area h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2B3C8C;
+    padding-bottom: 15px;
+}
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------REVIEW CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+/*--*********************************
+    ---------------------------------
+    --------CLIENT CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.client_work h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2B3C8C;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.client_work p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.client_middle h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2B3C8C;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.client_part h4 span {
+    color: red;
+}
+
+
+.client_cover h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #2B3C8C;
+    padding-bottom: 15px;
+}
+
+.client_cover ul {
+    padding-left: 15px;
+}
+
+
+.client_location h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #2B3C8C;
+    padding-bottom: 15px;
+}
+
+
+.client_to_do h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #2B3C8C;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.client_to_do p {
+    font-size: 14px;
+}
+
+.client_to_do p span {
+    color: #56cefc;
+}
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------CLIENT CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------FOOTER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.hooter_head h2 {
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #2b3b8c;
+    font-size: 26px;
+}
+
+.hooter_head h3 {
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: #2b3b8c;
+    font-size: 26px;
+}
+
+.hooter_head h4 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #2b3b8c;
+    font-size: 18px;
+}
+
+.hooter_head h4 span {
+    color: red;
+}
+
+.hooter_head p {
+    font-weight: 700;
+    padding-bottom: 70px;
+    color: #2b3b8c;
+    font-size: 14px;
+}
+
+.hooter_head p span {
+    color: red;
+}
+
+
+.footer_middle h3 {
+    font-size: 18px;
+    color: #2b3b8c;
+    padding-bottom: 10px;
+}
+
+.footer_middle p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.footer_middle span {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.footer_end {
+    font-size: 14px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer_end p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer_end span {
+    color: red;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------FOOTER CSS END----------
+    ---------------------------------
+    *********************************--*/

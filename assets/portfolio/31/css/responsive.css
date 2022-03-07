@@ -1,0 +1,76 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .email_area input {
+
+        width: 150px;
+    }
+
+    .email_area button {
+        padding: 13.4px 20.7px;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner_txt {
+        text-align: center;
+    }
+
+    .email_area input {
+        width: 130px;
+    }
+
+    .email_area button {
+        padding: 13.4px 8.7px;
+    }
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner_txt {
+        text-align: center;
+    }
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .banner_txt {
+        text-align: center;
+    }
+
+    .email_area button {
+        padding: 13.4px 10.7px;
+    }
+
+    .email_area input {
+        width: 130px;
+    }
+    .bg_cover {
+        background-position: left !important;
+    }
+    .background {
+        height: 100vh;
+    }
+    .banner_txt h3 {
+        padding-bottom: 142px;
+    }
+    .banner_txt h3 {
+        padding-top: 10px;
+        font-size: 25px;
+        padding-bottom: 190px;
+    }
+    .banner_overlay {
+        padding-left: 15px;
+    }
+    .banner_txt {
+        padding-top: 50px;
+    }
+}

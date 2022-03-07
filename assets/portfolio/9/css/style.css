@@ -1,0 +1,348 @@
+/*--------------------google fonts--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  line-height: 1;
+  margin: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.clr {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.bg_cover {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 100%;
+}
+
+/*------------------END OF COMMON CSS------------------*/
+
+/*--*********************************
+    ---------------------------------
+    --------BANNER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.banner_logo img {
+  width: 260px;
+  margin-top: 50px;
+}
+
+.banner_text h2 {
+  font-size: 20px;
+  padding-top: 230px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.banner_text h3 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  padding-right: 54px;
+  margin-bottom: 50px;
+}
+
+.banner_button {
+  margin-bottom: 175px;
+}
+
+.banner_button_left a {
+  font-size: 25px;
+  width: 175px !important;
+  height: 60px !important;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2b388f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner_button_left a i {
+  padding-right: 10px;
+}
+
+.banner_button_left a p {
+  margin-bottom: 0 !important;
+}
+
+.banner_button_right a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 18px;
+  padding-left: 70px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------BANNER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    ---------TILE CSS START----------
+    ---------------------------------
+    *********************************--*/
+
+.tile_area {
+  background: #f0f0f0;
+  position: relative;
+  width: 100%;
+  height: 1444px;
+}
+
+.main_tile_section {
+  width: 92%;
+  background: #fff;
+  position: absolute;
+  top: -6%;
+  left: 4%;
+  bottom: 151px;
+}
+
+
+.tile_head_text h3 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.tile_head_text h4 {
+  font-size: 17px;
+  line-height: 24px;
+  padding-bottom: 70px;
+}
+
+
+
+.tile_img_single img {
+  width: 120px;
+  padding-top: 72px;
+}
+
+.tile_head_img a {
+  font-size: 20px;
+  border-radius: 30px;
+  background: #2b388f;
+  text-decoration: none !important;
+  color: #fff;
+  padding: 16px 20px;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.tile_head_img a i {
+  padding-right: 10px;
+}
+
+
+
+.tile_img {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.tile_overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  color: #fff;
+  padding: 0 25px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s linear;
+  z-index: 999;
+  background: rgba(000, 000, 000, 0.5);
+}
+
+.tile_img:hover .tile_overlay {
+  opacity: 1;
+  height: 100%;
+  visibility: visible;
+}
+
+.tile_overlay h3 {
+  font-size: 25px;
+}
+
+.tile_overlay span {
+  position: absolute;
+  bottom: 0;
+}
+
+.tile_overlay p {
+  padding-right: 20px;
+}
+
+.tile_overlay_wide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 0 25px;
+}
+
+.tile_overlay_wide img {
+  position: absolute;
+  top: 5px;
+  right: 16px;
+  z-index: 999;
+  width: 100px;
+}
+
+.tile_overlay_wide h3 {
+  padding-top: 243px;
+  font-size: 25px;
+}
+
+.tile_overlay_wide span {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+/*--*********************************
+    ---------------------------------
+    ----------TILE CSS END-----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    -------REGISTER CSS START--------
+    ---------------------------------
+    *********************************--*/
+
+.register_area {
+  background: #2b388f;
+}
+
+.register_area h3 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.register_area p {
+  font-size: 16px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.register_area a {
+  font-size: 20px;
+  line-height: 1.5;
+  border: 2px solid #fff;
+  width: 220px;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none !important;
+  margin-bottom: 30px;
+}
+
+/*--*********************************
+    ---------------------------------
+    --------REGISTER CSS END---------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------FOOTER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.footer_area {
+  padding-top: 30px;
+}
+
+
+
+.footer_logo img {
+  width: 215px;
+}
+
+
+
+.footer_herd_a a {
+  color: #000;
+  padding-right: 60px;
+  padding-top: 12px;
+  text-decoration: none !important;
+  padding-bottom: 35px;
+}
+
+
+
+.footer_herd_b a {
+  color: #868789;
+  padding-right: 60px;
+  padding-top: 12px;
+  text-decoration: none !important;
+  padding-bottom: 35px;
+  font-size: 14px;
+}
+
+.footer_herd_c a {
+  color: #868789;
+  padding-right: 60px;
+  padding-top: 12px;
+  text-decoration: none !important;
+  padding-bottom: 35px;
+  font-size: 14px;
+  float: right;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------FOOTER CSS END----------
+    ---------------------------------
+    *********************************--*/

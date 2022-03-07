@@ -1,0 +1,22 @@
+font-family: 'Roboto Condensed', sans-serif;
+
+
+
+.bg {
+  background-color: rgb( 255, 255, 255 );
+
+  box-shadow: 0px 0px 30px 10px rgb( 0, 0, 0 );
+
+  position: absolute;
+  left: 375px;
+  top: 2158px;
+
+  width: 370px;
+  height: 300px;
+  z-index: 334;
+}
+
+
+
+
+https://ahsanhabibrony.github.io/Sinax.com/.

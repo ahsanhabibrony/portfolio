@@ -1,0 +1,178 @@
+/* CSS Document */
+
+
+.main_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 16px;
+	color: #333333;
+}	
+.white_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+.white_text2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.INTRO {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.OUTRO {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+}
+body {
+	background-color: #004927;
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+.Copyright {color: #FFFFFF}
+
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-style: normal;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 16px;
+	color: #666666;
+	
+	}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 16px;
+	color: #339999;
+}
+.caption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 16px;
+	color: #000000;
+}
+a.h1nav:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+}
+a.h1nav:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+}
+a.h1nav:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+
+}
+a.h1nav:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;	
+}
+a.nav:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.nav:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.nav:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #66cc33;
+	text-decoration: underline;
+}
+a.nav:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.sub-head-italic {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #000066;
+	font-style: italic;
+}
+.sub-head {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #000066;
+}
+.reg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	color: #333333;
+}	
+.locations {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	color: #cccccc;
+}	
+.backgrounnd01 {
+	background-image: url(images/dorset-turf-suppliers-bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.backgrounnd02 {
+	background-image: url(images/dorset-turf-suppliers-footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}

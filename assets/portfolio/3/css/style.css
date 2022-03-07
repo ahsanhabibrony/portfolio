@@ -1,0 +1,901 @@
+/*--------------------google fonts--------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.custom_container {
+    padding: 0 70px;
+}
+
+/*theme button css*/
+
+.theme_button {
+    margin-top: 50px;
+    padding: 20px 55px;
+    background: #f26957;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*theme button css*/
+
+
+/*------------------END OF COMMON CSS------------------*/
+
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .85);
+    width: 100%;
+    z-index: 999;
+    animation: stickyani 2s;
+    padding:
+}
+
+
+/*======================
+    sticky animation 
+======================*/
+
+
+
+@keyframes stickyani {
+    from {
+        transform: translateY(-100%)
+    }
+
+    to {
+        transform: translateY(0%)
+    }
+}
+
+
+/*======================
+    sticky animation 
+======================*/
+
+
+
+.main_menue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background: rgba(0, 0, 0, .5);
+    padding: 0 70px;
+}
+
+.main_menue .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    padding: 50px 15px;
+    transition: all .3s linear;
+}
+
+.main_menue .navbar-nav .nav-item.active .nav-link,
+.main_menue .navbar-nav .nav-item .nav-link:hover {
+    color: #f26957;
+}
+
+.toggle_bars button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------BANNER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.banner_area {
+    position: relative;
+}
+
+.banner_overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.right_btn {
+    border: 0;
+    /*
+    
+    border-right: 3px solid #fff;
+    
+*/
+    font-size: 48px;
+    padding-right: 7px;
+    color: #fff;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    z-index: 9999;
+    transform: translateY(-50%);
+}
+
+.left_btn {
+    border: 0;
+    /*
+    
+    border-left: 3px solid #fff;
+    
+*/
+    font-size: 48px;
+    padding-left: 7px;
+    color: #fff;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    z-index: 9999;
+    transform: translateY(-50%);
+}
+
+.single_content {
+    align-items: center;
+    padding-bottom: 245px;
+}
+
+.single_content h4 {
+    padding-top: 365px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.single_content h1 {
+    padding-top: 43px;
+    color: #fff;
+    font-size: 92px;
+    font-weight: 700;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------BANNER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    -------- SKILL CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+/*common header css*/
+
+
+
+.header_common {
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.header_common h3 {
+    color: #878787;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header_common h4 {
+    padding-top: 30px;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header_common p {
+    padding-top: 20px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+
+/*common header css*/
+
+
+
+
+.single_card img {
+    width: 100%;
+}
+
+.single_card h2 {
+    padding-top: 40px;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.single_card p {
+    padding-top: 25px;
+    line-height: 26px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.single_card h3 {
+    color: #444444;
+    padding-top: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 130px;
+}
+
+.single_card h3 i {
+    color: #444444;
+    padding-left: 12px;
+}
+
+/*--*********************************
+    ---------------------------------
+    --------- SKILL CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------SERVICE CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.service_area {
+    background: #f6f6f6;
+}
+
+.service_card .row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.single_service {
+    margin-right: 0;
+    height: 300px;
+    width: 370px;
+    background: #ffffff;
+    transition: .3s all linear;
+}
+
+.single_service:hover {
+    box-shadow: 0px 0px 30px 12px rgba(120, 120, 120, 0.5);
+}
+
+.single_service img {
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.single_service h2 {
+    padding-top: 25px;
+    padding-left: 40px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.single_service p {
+    padding: 0 40px;
+    padding-top: 30px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------SERVICE CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------WORK CSS START----------
+    ---------------------------------
+    *********************************--*/
+
+.work_button {
+    text-align: right;
+}
+
+.work_button button {
+    background: transparent;
+    border: 0;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-left: 25px;
+    transition: .3s all linear;
+}
+
+.work_button button:hover {
+    color: #f26957;
+}
+
+.single_work .work_img {
+    width: 93%;
+}
+
+.work_img {
+    position: relative;
+}
+
+.work_img .work_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+
+.work_img:hover .work_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.work_overlay a i {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.work_overlay h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 52%;
+}
+
+.work_overlay h4 {
+    padding-left: 30px;
+    font-size: 11px;
+    color: #cecece;
+}
+
+/*--*********************************
+    ---------------------------------
+    ----------WORK CSS END-----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    -------COUNTUP CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+.counter_up {
+    background: #333333;
+    width: 100%;
+}
+
+.counter_up h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.counter_line {
+    width: 30px;
+    height: 1px;
+    margin: 0 auto;
+    background: #f26957;
+}
+
+.counter_up p {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #d8d8d8;
+    padding-bottom: 55px;
+}
+
+/*--*********************************
+    ---------------------------------
+    --------COUNTUP CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------STUFF CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.stuff_img img {
+    width: 100%;
+}
+
+.stuff_img {
+    position: relative;
+}
+
+.stuff_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+
+.stuff_img:hover .stuff_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stuff_overlay p {
+    margin-top: 313px;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 0 30px;
+}
+
+.stuff_overlay a {
+    margin-bottom: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    color: #000000;
+    transition: all .3s linear;
+}
+
+.stuff_overlay a:hover {
+    background: #f26957;
+    color: #fff;
+}
+
+.stuff_overlay a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.stuff_text h2 {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.stuff_text p {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 130px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ----------STUFF CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    -------COMPANY CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.company_text {
+    margin: 10% 0;
+}
+
+.company_text h3 {
+    color: #878787;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.company_text h4 {
+    padding-top: 30px;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.company_text p {
+    padding-top: 20px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.company_button {
+    margin-top: 30px;
+    padding: 20px 55px;
+    background: #f26957;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*--*********************************
+    ---------------------------------
+    --------COMPANY CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------BRAND CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+/*no css*/
+
+
+/*--*********************************
+    ---------------------------------
+    ----------BRAND CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------NEWS CSS START----------
+    ---------------------------------
+    *********************************--*/
+
+
+.news_area {
+    background: #f6f6f6;
+}
+
+.single_news {
+    background: #ffffff;
+    margin-bottom: 130px;
+}
+
+.news_text {
+    padding: 0 30px;
+}
+
+.news_text h2 {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.news_info {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.news_info .name a {
+    color: #f26957;
+}
+
+.news_info .date {
+    padding-left: 10px;
+}
+
+.news_info .comment a {
+    color: #f26957;
+    padding-left: 10px;
+}
+
+.news_text p {
+    color: #666666;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.news_link {
+    border-top: 1px solid #dddddd;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.news_link a {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.news_link a i {
+    color: #222222;
+}
+
+
+
+/*--*********************************
+    ---------------------------------
+    ----------NEWS CSS END-----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------FOOTER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.footer_area {
+    background: #222222;
+}
+
+.footer_area .logo {
+    padding-bottom: 30px;
+}
+
+.footer_area .logo_txt p {
+    font-size: 14px;
+    color: #bdbdbd;
+    padding-right: 80px;
+    line-height: 26px;
+}
+
+.footer_area .logo_txt .social_link i {
+    background: #353333;
+    color: #e3e3e3;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding-left: 25.5%;
+    transition: all .5s linear;
+}
+
+.footer_area .logo_txt .social_link i:hover {
+    background: #f26957;
+    color: #fff;
+}
+
+.post_area h3 {
+    color: #fff;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.post_area p {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin-bottom: 0px;
+    line-height: 26px;
+}
+
+.post_area span {
+    color: #6d6d6d;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.subscribe_area h3 {
+    color: #fff;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.subscribe_area p {
+    font-size: 14px;
+    color: #bdbdbd;
+    line-height: 26px;
+}
+
+.subscribe_area .input .input_text input {
+    width: 210px;
+    height: 45px;
+    background: #3f3f3f;
+    border: 0;
+    color: #b6b6b6;
+    padding-left: 15px;
+    font-size: 12px;
+    border-right: 1px solid #575757;
+}
+
+.subscribe_area .input .input_icon {
+    width: 59px;
+    height: 45px;
+    background: #3f3f3f;
+    padding: 9px 15px;
+}
+
+
+
+/*/  *    copyright css   *  /*/
+
+
+
+.copy_right {
+    background: #2e2e2e;
+}
+
+.copy_right_txt {
+    color: #bdbdbd;
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.footer_bar ul li {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.footer_bar ul li a {
+    color: #bdbdbd;
+    font-size: 14px;
+    transition: all .5s linear;
+}
+
+.footer_bar ul li a:hover {
+    color: #f26957;
+
+    /*/  *    copyright css   *  /*/
+
+
+    /*--*********************************
+    ---------------------------------
+    ---------FOOTER CSS END----------
+    ---------------------------------
+    *********************************--*/

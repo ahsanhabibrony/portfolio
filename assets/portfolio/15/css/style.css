@@ -1,0 +1,169 @@
+@font-face {
+    src: url(../fonts/value-serif-bold.ttf);
+    font-family: value-serif;
+}
+
+@font-face {
+    src: url(../fonts/GT-Walsheim-Black.ttf);
+    font-family: GT-Walsheim;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ACCBD1;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 0 !important;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/*------------------END OF COMMON CSS------------------*/
+
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.header_section {
+    font-family: GT-Walsheim;
+}
+
+
+.header_section a p {
+    color: #000;
+}
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+.header_right {
+    display: flex;
+    justify-content: right;
+}
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    -------BODY CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+.middle {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.header_Center a h3 {
+    letter-spacing: 16px;
+    font-size: 21px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.middle h2 {
+    font-family: value-serif;
+    font-size: 45px;
+}
+
+.middle p {
+    font-family: value-serif;
+    padding-top: 10px;
+}
+
+.middle h4 {
+    font-family: GT-Walsheim;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.button1 {
+    display: block;
+    width: 220px;
+    border: none;
+    height: 30px;
+    font-family: GT-Walsheim;
+    font-size: 13px;
+    margin-top: 30px;
+    background-color: #EFCD46;
+}
+
+.button2 {
+    display: block;
+    width: 220px;
+    border: none;
+    height: 30px;
+    font-family: GT-Walsheim;
+    font-size: 13px;
+    margin-top: 13px;
+    background-color: #F2B895;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------BODY CSS END----------
+    ---------------------------------
+    *********************************--*/

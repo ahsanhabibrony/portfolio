@@ -1,0 +1,229 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_area {
+        display: none;
+    }
+
+    .banner_overlay {
+        padding-top: 0;
+    }
+
+    .banner_img img {
+        display: none;
+    }
+
+    .lecture_overlay h2 {
+        padding-right: 0;
+    }
+
+    .fill-this-in-text {
+        display: none;
+    }
+
+    .popup_single {
+        width: 85%;
+    }
+
+    .when-text {
+        display: none;
+    }
+
+    .lecture_overlay p {
+        padding-right: 0;
+    }
+
+    .lecture_overlay {
+        padding: 50px 0;
+    }
+
+    .banner_txt h1 {
+        font-size: 57px;
+    }
+
+    .banner_txt p {
+        padding: 0 86px;
+    }
+
+    .warning-btn a {
+        padding: 0;
+        width: 100%;
+        margin-left: 4.5%;
+    }
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header_area {
+        display: none;
+    }
+
+    .banner_overlay {
+        padding-top: 0;
+    }
+
+    .banner_img img {
+        display: none;
+    }
+
+    .lecture_overlay h2 {
+        padding-right: 0;
+    }
+
+    .lecture_overlay p {
+        padding-right: 0;
+    }
+
+    .lecture_overlay {
+        padding: 50px 0;
+    }
+
+    .fill-this-in-text {
+        display: none;
+    }
+
+    .when-text {
+        display: none;
+    }
+
+    .popup_single {
+        width: 98%;
+    }
+
+    .banner_txt h1 {
+        font-size: 46px;
+    }
+
+    .banner_txt p {
+        padding: 0 60px;
+    }
+
+    .workshop_head h2 {
+        font-size: 25px;
+    }
+
+    /* medium device responsive end */
+
+    .lecture_overlay h2 {
+        text-align: center;
+    }
+
+    .lecture_overlay p {
+        text-align: center;
+    }
+
+    .warning-btn a {
+        padding: 0;
+        width: 100%;
+        margin-left: 4.5%;
+    }
+
+    .srch-box .closebtn {
+        right: 8px;
+    }
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .header_area {
+        display: none;
+    }
+
+    .banner_overlay {
+        padding-top: 0;
+    }
+
+    .banner_img img {
+        display: none;
+    }
+
+    .lecture_overlay h2 {
+        padding-right: 0;
+    }
+
+    .lecture_overlay p {
+        padding-right: 0;
+    }
+
+    .popup_single {
+        width: 100%;
+    }
+
+    .lecture_overlay {
+        padding: 50px 0;
+    }
+
+    .fill-this-in-text {
+        display: none;
+    }
+
+    .when-text {
+        display: none;
+    }
+
+    .banner_txt h1 {
+        font-size: 46px;
+    }
+
+    .banner_txt p {
+        padding: 0 0px;
+    }
+
+    .srch-box .closebtn {
+        top: -14px;
+        right: 10px;
+    }
+
+    /* medium device responsive end */
+
+    .lecture_overlay h2 {
+        text-align: center;
+    }
+
+    .lecture_overlay p {
+        text-align: center;
+    }
+
+    /* small device responsive end */
+
+
+    .banner_txt p {
+        font-size: 23.5px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .workshop_head h2 {
+        padding-top: 20px;
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .workshop_single h2 {
+        padding-bottom: 20px;
+    }
+
+    .warning-icon-box {
+        display: none;
+    }
+
+    .warning-p {
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .warning-btn a {
+        padding: 0;
+        width: 100%;
+        margin-left: 4.5%;
+    }
+}

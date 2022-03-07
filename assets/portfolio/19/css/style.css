@@ -1,0 +1,471 @@
+/*--------------------google fonts--------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/*------------------END OF COMMON CSS------------------*/
+
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.header_left {
+    margin: 130px 0 0 108px;
+}
+
+.header_left img {
+    margin-bottom: 35px;
+}
+
+.header_left h2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.header_left p {
+    color: #666;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2em;
+    padding-right: 116px;
+}
+
+.header_left a {
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffb031;
+    padding: 20px 40px;
+    color: #fff;
+    margin: 30px 20px 0 0;
+}
+
+.header_right {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.two {
+    background-color: #fff;
+    margin-top: 185px;
+}
+
+.Header_info {
+    margin: 35px 0 0 30px;
+}
+
+.Header_info h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 40px;
+}
+
+.three {
+    background-color: #8DB700;
+}
+
+.header_mobile {
+    margin-bottom: 25px;
+}
+
+.header_mobile i {
+    display: inline-block;
+    font-size: 20px;
+    color: #293600;
+    padding-right: 20px;
+}
+
+.header_mobile p {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #1d2600;
+
+}
+
+.header_txt {
+    margin: 40px 0 0 30px;
+}
+
+.header_txt h3 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.header_txt p {
+    color: #fff;
+    padding-bottom: 30px;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header_txt h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 35px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------pricing CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+/*--*********************************
+    ---------------------------------
+    --------pricing CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.price_left {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.price_left h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.price_left p {
+    color: #666;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2em;
+    padding-bottom: 20px;
+}
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+/*--*********************************
+    ---------------------------------
+    --------BANNER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.banner_area {
+    position: relative;
+}
+
+.single_slide {}
+
+.banner_overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.banner_txt {
+    padding: 250px 0;
+}
+
+.banner_txt h1 {
+    line-height: 90px;
+    color: #fff;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.slick-dots {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    position: relative;
+    top: -88px;
+    left: 0;
+    text-align: center;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+    z-index: 9999;
+}
+
+.left_btn,
+.right_btn {
+    position: absolute;
+    top: 40%;
+    z-index: 9999;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 100px;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255, 0.8);
+    transform: translateY(-50%)
+}
+
+.left_btn {
+    left: 20px;
+}
+
+.right_btn {
+    right: 20px;
+}
+
+.banner_area .slick-dots {
+    text-align: center;
+    margin-top: -40px;
+    position: relative;
+    z-index: 9999;
+}
+
+.banner_area .slick-dots li {
+    display: inline-block;
+}
+
+.banner_area .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(64, 64, 64, 0.8);
+    margin: 0 5px;
+    transition: all .3s linear;
+}
+
+.banner_area .slick-dots li.slick-active button {
+    background: rgb(255, 255, 255, 0.6);
+    width: 15px;
+    height: 15px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------BANNER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.form h2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.2em;
+}
+.form p {
+	padding-right: 480px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.form span {
+	color: #009fff;
+}
+.form h3 {
+	font-size: 28px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.form input {
+	border: 2px solid;
+	font-size: 21px;
+	padding-left: 15px;
+	margin-right: 16px;
+	margin-bottom: 20px;
+	width: 30%;
+}
+.form textarea {
+	border: 2px solid;
+	font-size: 21px;
+	padding-left: 15px;
+	/* margin-right: 16px; */
+	margin-bottom: 20px;
+	width: 63%;
+	padding-top: 5px;
+	height: 9%;
+}
+.form button {
+	border: 0;
+	background-color: #3dd2f4;
+	padding: 8px 23px;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/

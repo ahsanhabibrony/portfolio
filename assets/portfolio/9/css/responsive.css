@@ -1,0 +1,170 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner_text h2 {
+        padding-top: 50px;
+    }
+
+    .tile_area {
+        height: 1636px;
+    }
+
+    .main_tile_section {
+        bottom: 136px;
+    }
+
+    .footer_herd_c a {
+        float: left;
+    }
+
+    .footer_herd_a a {
+        padding-right: 25px;
+        padding-top: 34px;
+    }
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner_text h2 {
+        padding-top: 33px;
+    }
+
+
+
+    .main_tile_section {
+        bottom: 136px;
+    }
+
+    .footer_herd_c a {
+        float: left;
+    }
+
+    .footer_herd_a a {
+        padding-right: 25px;
+        padding-top: 34px;
+    }
+
+    /* medium responsive end */
+
+    .tile_img_single img {
+        padding-top: 0;
+    }
+
+    .tile_head_img a {
+        margin-bottom: 20px;
+    }
+
+    .tile_area {
+        height: 4009px;
+    }
+
+    .main_tile_section {
+        top: -2%;
+    }
+
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .banner_text h2 {
+        padding-top: 29px;
+    }
+
+    .tile_area {
+        height: 1636px;
+    }
+
+    .main_tile_section {
+        bottom: 136px;
+    }
+
+    .footer_herd_c a {
+        float: left;
+    }
+
+    .footer_herd_a a {
+        padding-right: 25px;
+        padding-top: 34px;
+    }
+
+    /* medium responsive end */
+
+    .tile_img_single img {
+        padding-top: 0;
+    }
+
+    .tile_head_img a {
+        margin-bottom: 20px;
+    }
+
+
+
+    /* smallresponsive end */
+
+    .banner_text h3 {
+        padding-right: 0;
+    }
+
+    .main_tile_section {
+        top: -2%;
+    }
+
+    .banner_button_right a {
+        padding-left: 10px;
+    }
+
+    .tile_area {
+        height: 100%;
+    }
+
+    .main_tile_section {
+        position: unset;
+    }
+
+    .main_tile_section {
+        width: 100%;
+    }
+
+    .tile_overlay_wide img {
+        display: none;
+    }
+
+    .tile_overlay_wide span {
+        display: none;
+    }
+
+    .footer_area {
+        text-align: center;
+    }
+
+    .footer_herd_b a {
+        padding-right: 0;
+    }
+
+    .footer_herd_c a {
+        padding-right: 0;
+    }
+
+    .footer_herd_a a {
+        padding-bottom: 10px;
+    }
+
+    .tile_overlay {
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+        background: rgba(000, 000, 000, 0.0);
+    }
+
+
+}

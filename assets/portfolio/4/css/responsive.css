@@ -1,0 +1,342 @@
+/*/ Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .location {
+        width: 41%;
+    }
+
+    .mail {
+        width: 36%;
+    }
+
+    .contact {
+        width: 29%;
+    }
+
+}
+
+
+/*/ Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .header_bottom_area .logo {
+        margin-top: 6%;
+    }
+
+    .banner_info {
+        flex-wrap: wrap;
+    }
+
+    .location {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contact {
+        width: 50%;
+    }
+
+    .mail {
+        width: 50%;
+    }
+
+    .banner_area .slick-dots {
+        left: -44.7%;
+    }
+
+    .single_service h3 {
+        font-size: 17px;
+    }
+
+    .footer_area .about form .theme_btn {
+        top: 42%;
+        right: 7.6%;
+    }
+
+    .corporate_area .section_head .theme_btn {
+        margin-right: 15px;
+    }
+
+    .corporate_area .section_head h2 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+
+/*/ Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_area .overlay .overlay_item input {
+        width: 80%;
+    }
+
+    .header_area .overlay .overlay_item .fa-search {
+        right: 15%;
+    }
+
+    .header_bottom_area .logo {
+        margin-top: 13%;
+    }
+
+    .banner_info {
+        flex-wrap: wrap;
+    }
+
+    .location {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contact {
+        width: 50%;
+    }
+
+    .mail {
+        width: 50%;
+    }
+
+    .banner_area .slick-dots {
+        left: -42%;
+    }
+
+    .about_span {
+        margin-top: 80px;
+    }
+
+    .single_work .overlay {
+        width: 83.5%;
+    }
+
+    .single_work.lagre_col .overlay {
+        width: 92%;
+    }
+
+    .single_work .overlay .icon {
+        padding-bottom: 10px;
+    }
+
+    .single_work .overlay h2 {
+        font-size: 20px;
+    }
+
+    .counter_item .icon {
+        margin-bottom: 10px;
+    }
+
+    .faq-body {
+        margin-right: 28px;
+    }
+
+    .single_price .price_list {
+        padding-top: 9%;
+    }
+
+    .contact_frm .theme_btn {
+        padding: 10px;
+    }
+
+    .single_blog .blog_txt h2 {
+        font-size: 15px;
+    }
+
+    .corporate_area .section_head h2 {
+        padding-right: 0;
+        font-size: 25px;
+    }
+
+    .footer_area .about form .theme_btn {
+        top: 34%;
+        right: 5.6%;
+    }
+
+}
+
+
+
+/*/ Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header_txt {
+        display: none;
+    }
+
+    .header_icons {
+        text-align: center !important;
+    }
+
+    .header_icons a {
+        padding-right: -1.5px;
+    }
+
+    .header_bottom_area .logo {
+        text-align: center;
+    }
+
+    .banner_info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact {
+        width: 45%;
+    }
+
+    .location {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .nav-item .nav-link.nav_btn {
+        display: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::before {
+        left: 5.7%;
+    }
+
+    .banner_area .slick-dots {
+        left: -40.5%;
+    }
+
+    .about_span {
+        display: inline-block;
+        width: 300px;
+        height: 1px;
+        background: #eaeaea;
+        margin-top: 50px;
+    }
+
+    .work_btns {
+        flex-wrap: wrap;
+    }
+
+    .single_work .overlay {
+        width: 94.5%;
+        padding-top: 45%;
+    }
+
+    .faq-body {
+        width: 81%;
+    }
+
+    .single_price .price_list {
+        padding-top: 7%;
+    }
+
+    .corporate_area .section_head h2 {
+        padding-right: 0;
+    }
+
+    .corporate_area .section_head .theme_btn {
+        left: 12%;
+        transform: translateY(0%);
+        padding: 10px 15px;
+    }
+
+    .footer_area .about form .theme_btn {
+        top: 35.2%;
+        right: 3.6%;
+    }
+
+    .flickers_img {
+        padding-bottom: 40px;
+    }
+
+
+}
+
+
+
+/*/ Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header_txt {
+        display: none;
+    }
+
+    .header_icons {
+        text-align: center !important;
+    }
+
+    .header_bottom_area .logo {
+        text-align: center;
+    }
+
+    .banner_info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .mail {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .location {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-item .nav-link.nav_btn {
+        display: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::before {
+        left: 10%;
+    }
+
+    .slick-list {
+        height: 391px !important;
+    }
+
+    .slider_content h2 {
+        font-size: 40px;
+    }
+
+    .slider_content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner_area .slick-dots {
+        bottom: 10px;
+        left: -38%;
+    }
+
+    .about_span {
+        width: 300px;
+        height: 1px;
+    }
+
+    .about_help {
+        padding-left: 0;
+        padding-top: 35px;
+    }
+
+    .single_work .overlay {
+        width: 90.5%;
+    }
+
+    .single_work.lagre_col .overlay {
+        width: 91%;
+    }
+
+    .single_work .overlay .icon {
+        padding-bottom: 5px;
+    }
+
+    .single_work .overlay h2 {
+        font-size: 20px;
+    }
+
+    .faq-body {
+        width: 70%;
+    }
+
+    .faq_header h4 {
+        line-height: 30px;
+        margin-left: 25px;
+    }
+}

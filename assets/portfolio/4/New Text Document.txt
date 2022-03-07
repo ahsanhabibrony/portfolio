@@ -1,0 +1,32 @@
+.Bg {
+  border-width: 1px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  background-color: rgb(245, 248, 255);
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.6);
+  position: absolute;
+  left: 515px;
+  top: 3954px;
+  width: 268px;
+  height: 391px;
+  z-index: 479;
+}
+
+.Box {
+  border-width: 1px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.6);
+  position: absolute;
+  left: 515px;
+  top: 5475px;
+  width: 268px;
+  height: 475px;
+  z-index: 233;
+}
+
+
+
+font-family: 'Hind', sans-serif;
+font-family: 'Montserrat', sans-serif;

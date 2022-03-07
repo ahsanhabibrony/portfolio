@@ -1,0 +1,299 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.clr {
+    clear: both;
+}
+
+.content p {
+    position: relative;
+    color: #898996;
+    font-weight: 300;
+    font-size: 12px;
+    padding-right: 75px;
+    margin-left: 10px;
+}
+
+.content p::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    left: -10px;
+    background: #898996;
+}
+
+.theme_btn {
+    background: #DA0221;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 40px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+.theme_btn i {
+    padding-left: 35px;
+    font-size: 14px;
+}
+
+
+/* section head style */
+
+.section_head {
+    padding-bottom: 10px;
+}
+
+.section_head h4 {
+    color: #2A2A2A;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.section_head h1 {
+    color: #DA0221;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/* End of common CSS */
+
+/*=========================
+
+    02.HEADER AREA CSS
+
+=========================*/
+
+.main_menu {}
+
+.navbar {
+    background-color: #CA0000 !important;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    transition: all .5s linear;
+    z-index: 9999;
+    transform: translateX(-75%);
+}
+
+.menu_active {
+    transform: translateX(0);
+}
+
+.navbar-nav {
+    display: block;
+    top: 5%;
+    position: absolute;
+}
+
+.navbar-nav .nav-item {
+    padding-bottom: 25px;
+
+}
+
+.navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all .5s linear;
+    padding-left: 10px;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    border-left: 1px solid #fff;
+}
+
+.btn1 {
+    position: absolute;
+    top: 10px;
+    right: 8%;
+    background: transparent;
+    border: 0;
+    color: #fff !important;
+    font-size: 30px;
+    z-index: 999999;
+    cursor: pointer;
+}
+
+.btn_move {
+    right: 20px;
+}
+
+.collapse:not(.show) {
+    display: block;
+}
+
+.navbar-img {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 21%;
+    right: -75%;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+.navbar-img img {
+    cursor: pointer;
+}
+
+/*=========================
+
+    03.BANNER AREA CSS
+
+=========================*/
+
+.banner_area {
+    z-index: 99;
+}
+
+.slider_bg {
+    background-image: url(../images/banner.png);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 600px;
+}
+
+.slider_content h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/*=========================
+
+    04.HAPPINESS AREA CSS
+
+=========================*/
+
+.happiness_area {}
+
+.happiness_bg {
+    background-image: url(../images/landing-7.png);
+    background-position: center !important;
+    background-size: auto!important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+/*=========================
+
+    05.FLAVOR AREA CSS
+
+=========================*/
+
+.flavor_area {}
+
+.flavor_bg {
+    background-image: url(../images/landing-6.png);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+/*=========================
+
+    06.CAFFEINE AREA CSS
+
+=========================*/
+
+.caffeine_area {}
+
+/*=========================
+
+    07.ACID AREA CSS
+
+=========================*/
+
+.acid_area {}
+
+.acid_bg {
+    background-image: url(../images/landing-8.png);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+/*=========================
+
+    08.CARAMEL AREA CSS
+
+=========================*/
+
+.caramel_area {}
+
+.caramel_bg {
+    background-image: url(../images/landing-5.png);
+    background-position: top !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+/*=========================
+
+    09.WATER AREA CSS
+
+=========================*/
+
+.water_area {}
+
+.water_bg {
+    background-image: url(../images/landing-4.png);
+    background-position: top !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}

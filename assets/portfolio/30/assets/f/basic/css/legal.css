@@ -1,0 +1,49 @@
+.legal-terms { text-align: justify; }
+
+.legal-terms h1 {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 34px;
+  font-weight: 500;
+  margin: 20px 0 40px;
+  padding-bottom: 30px;
+}
+
+.legal-terms blockquote { font-size: 15px; }
+
+.legal-terms p { margin: 20px 0; }
+
+.legal-terms ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+.legal-terms ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+.legal-terms ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  font-weight: 400;
+  padding-right: 0.6em;
+}
+.legal-terms ol.lower-alpha > li:before {
+  content: "(" counter(item, lower-alpha) ")";
+  display: table-cell;
+  font-weight: 400;
+  padding-right: 0.6em;
+  width: 40px;
+}
+.legal-terms ol.lower-roman > li:before {
+  content: "(" counter(item, lower-roman) ")";
+  display: table-cell;
+  font-weight: 400;
+  padding-right: 0.6em;
+  width: 40px;
+}
+.legal-terms li ol > li { margin: 10px 0; }
+.legal-terms li ol > li:before { content: counters(item, ".") " "; }
+
+.legal-terms strong { font-weight: 400; }

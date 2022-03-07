@@ -1,0 +1,866 @@
+/*--------------------google fonts--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Fira+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Patua+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    line-height: 1;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*------------------END OF COMMON CSS------------------*/
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.header_area {
+    background: #030304;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+}
+
+.header_text {
+    padding: 30px 0;
+    font-family: "Patua One", cursive;
+    color: #8de381;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.btn-header {
+    font-family: "Patua One", cursive;
+    border-radius: 7px;
+    background-color: #030304;
+    border: solid 1px #262536;
+    color: #8de381 !important;
+    padding: 9px 23px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn-header:hover {
+    background: #262536;
+    border: solid 1px #262536;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------BANNER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.banner_overlay {
+    padding-top: 93px;
+}
+
+.glow_img img {
+    width: 100%;
+    text-align: center;
+    padding-left: 47px;
+}
+
+
+.banner_txt h1 {
+    font-family: "Damion", cursive;
+    font-size: 42px;
+    padding-top: 98px;
+    font-weight: normal;
+    text-align: center;
+    color: #c14bfe;
+    text-shadow: 0px 0px 5px #8949ff;
+    line-height: 1;
+    transform: rotate(-1deg);
+}
+
+.banner_txt p {
+    font-family: "Patua One", cursive;
+    color: #ffffff;
+    font-size: 33.5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.banner_txt p span {
+    color: #8de381;
+}
+
+.banner_img {
+    overflow: hidden;
+    width: 653px;
+}
+
+.banner_img img {
+    margin-top: -95px;
+    margin-bottom: -223px;
+}
+
+/* countup */
+
+.countdown {
+    background-color: rgba(7, 7, 8, 0.5);
+    width: 100%;
+    border-radius: 7px;
+}
+
+.count_head h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #000000;
+    line-height: 1.33;
+    padding: 19px;
+}
+
+.countdown h2 {
+    font-family: "Patua One", cursive;
+    font-size: 21px;
+    text-align: center;
+    color: #8de381;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.countdown ul {
+    text-align: center;
+}
+
+.countdown ul li {
+    display: inline-block;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #8de381;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.countdown ul li span {
+    display: block;
+    font-size: 14px;
+    color: #8de381;
+    font-size: 32px;
+}
+
+.countdown ul li .counter_text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 80%;
+    font-weight: normal;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.hero-cta {
+    width: 380px;
+    margin-right: auto;
+}
+
+.hero-cta {
+    width: 100%;
+    font-family: "Patua One", cursive;
+    font-size: 22px;
+    line-height: 2.4;
+    color: #1f1e2a !important;
+    overflow: hidden;
+    border: 0;
+    display: block;
+    height: 64px;
+    background: #98f4ad;
+    margin-bottom: 100px;
+    transition: all 0.3s linear;
+}
+
+.hero-cta:hover {
+    background: #58da57;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------BANNER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------WORKSHOP CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.workshop_area {
+    background: #f4f3f9;
+}
+
+.workshop_head h2 {
+    padding-top: 85px;
+    width: 76%;
+    font-family: "Patua One", cursive;
+    font-size: 34px;
+    color: #111118;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 45px;
+    line-height: 1.37;
+    text-align: center;
+}
+
+.workshop_head span {
+    color: #8954a4;
+}
+
+/* ribbon css */
+
+.ribbon_div {
+    padding-bottom: 100px;
+}
+
+.ribbon {
+    width: 457px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 17px !important;
+    background: #000000;
+    background: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(#000000),
+            to(#000000));
+    background: -webkit-linear-gradient(top, #000000, #000000);
+    background: -moz-linear-gradient(top, #000000, #000000);
+    background: -ms-linear-gradient(top, #000000, #000000);
+    background: -o-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000 0%, #000000 100%);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.ribbon p .ribbol_clr {
+    font-weight: 700;
+    color: #fff;
+}
+
+.ribbon p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px !important;
+    color: #ffffff;
+    text-shadow: #000000 0 1px 0;
+    margin: 0px;
+    padding: 12px 10px;
+}
+
+.ribbon:before,
+.ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #000000;
+    z-index: -1;
+}
+
+.ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+
+.ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+    border-color: #000000 transparent transparent transparent;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    bottom: -1em;
+    content: "";
+}
+
+.ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+/* ribbon css */
+
+
+.workshop_single h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1e1d29;
+    font-weight: 400;
+    padding: 0 14px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------WORKSHOP CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------WARNING CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.warning_area {
+    margin: 50px 0;
+}
+
+.warning-box {
+    position: relative;
+    border-radius: 7px;
+    background-color: #1f1f2b;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.warning-icon-box {
+    padding-right: 100px;
+    overflow-x: hidden;
+}
+
+.warning-icon-box img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: -50px;
+    transform: scale(0.8);
+}
+
+.warning-p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.warning-p span {
+    color: #fcac4e;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.warning-date-p p {
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.warning-btn a {
+    font-family: "Patua One", cursive;
+    font-size: 22px;
+    line-height: 2.4;
+    color: #1f1e2a !important;
+    background: #98f4ad;
+    transition: all 0.3s linear;
+    padding: 6px 100px;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+.warning-btn a:hover {
+    color: #fff;
+    background-color: #58da57;
+    border-color: #58da57;
+    text-decoration: none !important;
+}
+
+.warning-box {
+    position: relative;
+    border-radius: 7px;
+    background-color: #1f1f2b;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.warning-box:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 0;
+    right: 0;
+    height: 14px;
+    background: repeating-linear-gradient(145deg,
+            #fcac4e,
+            #fcac4e 5px,
+            #3d2100 2px,
+            #3d2100 12px);
+    border-radius: 3px;
+    z-index: 11;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------WARNING CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------LECTURE CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.single_slide {
+    background-position-x: 27% !important;
+    background-position-y: -154px !important;
+}
+
+
+.lecture_overlay {
+    padding: 100px 0;
+}
+
+.lecture_overlay h2 {
+    margin-bottom: 25px;
+    font-size: 28.5px;
+    font-family: "Patua One", cursive;
+    color: #8de381;
+    padding-right: 110px;
+    text-transform: uppercase;
+}
+
+.lecture_overlay p {
+    color: #d1c6dd;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    line-height: 1.44;
+    padding-right: 110px;
+}
+
+.lecture_overlay p span {
+    font-weight: 700;
+    color: #fff;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------LECTURE CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    ------SUB-FOOTER CSS START-------
+    ---------------------------------
+    *********************************--*/
+
+.sub-footer {
+    background: #1d1d23;
+}
+
+.sub-footer-logo img {
+    padding: 50px 0;
+}
+
+.need-help-text {
+    font-size: 15px;
+    font-family: montserrat, sans-serif;
+    color: #6d6d7f;
+    font-weight: 700;
+}
+
+.sub-footer-support-link {
+    font-size: 16px;
+    font-family: rubik, sans-serif;
+    color: #c0bdb4;
+    transition: all 0.3s linear;
+    padding-bottom: 50px;
+}
+
+.sub-footer-support-link:hover {
+    text-decoration: none;
+    color: #ffdb5e;
+}
+
+/*--*********************************
+    ---------------------------------
+    -------SUB-FOOTER CSS END--------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------FOOTER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+
+.site-footer {
+    background-color: #18181a;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-menu {
+    margin: 30px 0;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    position: relative;
+}
+
+.footer-menu ul li a {
+    font-family: fira sans, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #5e5e76;
+    transition: all linear 300ms;
+}
+
+.footer-menu ul li a:hover,
+.footer-menu ul li a:focus {
+    text-decoration: none;
+    color: #ffe179;
+}
+
+.footer-copyright-text {
+    font-family: fira sans, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6d6d7f;
+    margin-bottom: 0;
+    line-height: 2em;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------FOOTER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------POPUP CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.srch-box {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: none;
+    z-index: 999999;
+}
+
+.srch-box .closebtn {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 900;
+    position: absolute;
+    top: 11px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+body.overflow_hide {
+    overflow: hidden;
+}
+
+.fill-this-in-text {
+    position: absolute;
+    top: 199px;
+    right: 10%;
+}
+
+.when-text {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+}
+
+.popup_single {
+    width: 52%;
+    background: #f6f6f6;
+    margin: 30px auto;
+    padding: 30px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.popup_single h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22.5px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.popup_single h3 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.webiner_button {
+    width: 100%;
+    border: 0;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    background: #fff;
+    margin-block: 15px;
+}
+
+.webiner_button i {
+    padding-left: 17px;
+    padding-top: 17px;
+    color: #8f8f8f;
+    font-size: 23px;
+}
+
+.webiner_button p {
+    margin-bottom: 0 !important;
+    padding: 10px 0;
+    padding-left: 7px;
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.3;
+    color: #000000;
+}
+
+.popup_single h4 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.input_name {
+    position: relative;
+}
+
+.input_name input {
+    height: 53px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #e7e7e7;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.5;
+    color: #000000;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.input_name input:required {
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 0px 0px #e7e7e7;
+    outline: none;
+}
+
+.input_name i {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    color: #8f8f8f;
+    font-size: 27px;
+}
+
+.input_email {
+    position: relative;
+}
+
+.input_email input {
+    height: 53px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #e7e7e7;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.5;
+    color: #000000;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.input_email input:required {
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 0px 0px #e7e7e7;
+    outline: none;
+}
+
+.input_email i {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    color: #8f8f8f;
+    font-size: 27px;
+}
+
+.input_tel {
+    position: relative;
+}
+
+.input_tel input {
+    height: 53px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #e7e7e7;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.5;
+    color: #000000;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.input_tel i {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    color: #8f8f8f;
+    font-size: 27px;
+}
+
+.form_button {
+    border: 1px solid #7be894;
+    width: 100%;
+    background: #ef9843;
+
+    font-family: "Patua One", cursive;
+    font-size: 27.5px;
+    font-weight: normal;
+    line-height: 2.55;
+    text-align: center;
+    color: #381c01;
+    height: 83px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 15px;
+    transition: all 0.3s linear;
+}
+
+.form_button:hover {
+    background: #ed8b2c;
+}
+
+.popup_text {
+    font-size: 12px;
+}
+
+.popup_text p {
+    margin-bottom: 0 !important;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------POPUP CSS END----------
+    ---------------------------------
+    *********************************--*/

@@ -1,0 +1,574 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none!important;
+    display: inline-block;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+
+
+/* section head style */
+
+.section_head {}
+
+.section_head h5 {
+    color: #878787;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.section_head h2 {
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.section_head p {
+    color: #666666;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+
+/* THEME BTN */
+
+.theme_btn {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(180deg, #00D49F 0%, #009C74 100%);
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 80px;
+    border-radius: 4px;
+}
+
+.theme_btn:hover {
+    color: #000000;
+}
+
+
+/* End of common CSS */
+
+/*=========================
+
+    02.HEADER AREA CSS
+
+=========================*/
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #18191F;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 13px;
+	background: #F07F62;
+	width: 156px;
+	height: 40px;
+	padding-left: 8px;
+}
+
+.navbar-light .navbar-nav .active .nav-link:hover {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #18191F;
+}
+
+/*=========================
+
+    03.BANNER AREA CSS
+
+=========================*/
+
+.banner_area {
+    position: relative;
+}
+
+.banner_txt {
+    padding-top: 160px;
+}
+
+.banner_txt h2 {
+    padding-right: 55px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 66.5px;
+}
+
+.banner_txt p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 46.4px;
+}
+
+.banner_txt p span {
+    background: #D9F0EA;
+    font-weight: 600;
+}
+.abcd{
+    background: #D9F0EA;
+    background: linear-gradient(to top, #80CDB9 50%, transparent 50%);
+}
+.under_thm {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    opacity: 61%;
+    padding-left: 135px;
+    padding-top: 10px;
+}
+
+.banner_img .img-1 {
+    margin-top: 15px;
+}
+
+.banner_img .img-2 {
+    margin-top: 180px;
+}
+
+.banner_img .img-3 {
+    margin-left: 40px;
+}
+
+.banner_bg_img-1 {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+.banner_bg_img-2 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.banner_bg_img-3 {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+.banner_bg_img-4 {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+}
+
+.banner_bg_img-5 {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+
+/*** TYPING ***/
+
+
+
+/*=========================
+
+    04.OFFER AREA CSS
+
+=========================*/
+
+.offer_area {
+    padding-top: 160px;
+}
+
+.offer_txt h2 {
+    padding-right: 55px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.5px;
+}
+
+.offer_txt .offer {
+    font-weight: 400 !important;
+}
+
+.offer_txt p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40.4px;
+}
+
+.offer_txt p span {
+    background: #D9F0EA;
+    font-weight: 600;
+}
+
+.offer_qna {
+    background: #FBE6DA;
+}
+
+.single_qna {
+    display: flex;
+    padding: 15px 0px;
+    padding-left: 42px;
+}
+
+.qna_icon {
+    background: #F4F5F7;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    padding: 15px;
+    line-height: 60px;
+}
+
+.qna_txt {
+    padding-left: 36px;
+}
+
+.qna_txt h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.qna_txt p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/*=========================
+
+    05.EARN AREA CSS
+
+=========================*/
+
+.earn_head h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #18191F;
+}
+
+.earn_head h1 {
+	color: #F07F62;
+	font-weight: 700;
+	font-size: 96px;
+	margin-bottom: 60px;
+}
+
+.earn_head .under_thm {
+    padding-left: 0;
+}
+
+.earn_head .theme_btn {
+    padding: 10px 40px;
+}
+
+.earn_lp_img {
+    background: #F2F2F2;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+
+.earn_txt {
+    padding-top: 80px;
+}
+
+.earn_txt h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+}
+
+.earn_txt p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+/**** SLIDER BAR ****/
+#ex1Slider .slider-selection {
+	background: #00C795;
+}
+.min-slider-handle{
+	left: 60%;
+	height: 20px;
+	width: 11px;
+	border-radius: 3px!important;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+
+}
+/**** SLIDER BAR ****/
+
+.earn_lp_img {
+    position: relative;
+}
+.earn_lp_img .theme_btn {
+	padding: 10px 25px;
+}
+
+.lp_img_upper_txt {
+	position: absolute;
+	top: 45px;
+	left: 20px;
+}
+.lp_img_upper_txt h4{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+}
+.lp_img_upper_txt span {
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: #fff;
+	padding-left: 25px;
+	padding-right: 10px;
+	top: 8px;
+	position: relative;
+}
+.lp_img_upper_txt h3{
+    position: absolute;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+        color: #fff;
+}
+.lp_img_upper_txt h2 {
+	position: absolute;
+	left: 160px;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Manrope', sans-serif;
+	color: #fff;
+}
+
+/*=========================
+
+    06.GUEST AREA CSS
+
+=========================*/
+
+.single_guest{}
+.guest_txt {
+	background: #FBE6DA;
+	position: relative;
+	border-radius: 10px;
+	padding: 30px 5px;
+}
+.guest_txt h2{
+    padding-bottom: 45px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.guest_txt p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.guest_txt span{
+    font-weight: 600;
+    font-size: 16px;
+}
+.guest_txt i {
+	position: absolute;
+	bottom: -31px;
+	left: 50%;
+	font-size: 50px;
+	transform: translateX(-50%);
+	color: #FBE6DA;
+}
+.guest_img {
+	padding-top: 50px;
+	padding-left: 50%;
+	transform: translateX(-25%);
+}
+
+/*=========================
+
+    07.PARTNER AREA CSS
+
+=========================*/
+
+.partner_txt{
+    padding-bottom: 30px;
+}
+
+.partner_bottom_txt  {
+    padding-top: 80px;
+}
+.partner_bottom_txt h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+}
+.partner_bottom_txt .theme_btn {
+	padding: 10px 40px;
+}
+
+.partner_bottom_txt .under_thm {
+	padding-left: 0;
+}
+
+/*=========================
+
+    08.FOOTER AREA CSS
+
+=========================*/
+
+.footer_area{
+    color: #fff;
+    background: #000;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.footer_left{}
+.footer_left .footer_logo{}
+.footer_left .footer_txt{}
+.footer_left .footer_txt p {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.footer_resources h4 {
+	padding-top: 25px;
+	padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer_resources ul li {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 32px;
+    text-decoration: underline;
+}
+
+.footer_legal h4 {
+	padding-top: 25px;
+	padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer_service ul {
+}
+.footer_service ul li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: underline;
+}
+.ligal {
+        padding-top: 22px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 16px;
+    
+}
+
+/*=========================
+
+    09.FOOTER LAST AREA CSS
+
+=========================*/
+
+.footer_last{
+    background: #000;
+    padding-bottom: 80px;
+}
+
+.footer_last_txt p{
+    color: #8BA7B3;
+    text-align: center;
+}
+.footer_last_txt p span{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

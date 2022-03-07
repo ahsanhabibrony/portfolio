@@ -1,0 +1,641 @@
+/*--------------------google fonts--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: disc;
+}
+
+a {
+  line-height: 1;
+  margin: 0;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.clr {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+/*------------------END OF COMMON CSS------------------*/
+
+/* nav area css */
+.nav_area {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #1f5234 0%, #1c3426 100%);
+}
+
+.bg_image {
+  background-image: url(../images/watermark.png);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top !important;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+/* navbar */
+
+.menue_bar {
+  background: #567c66;
+}
+
+.main_menue {
+  width: 100%;
+}
+
+.main_menue .navbar-nav .nav-item .nav-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.srch_icon button {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.menue_bar2 {
+  background-color: transparent;
+}
+
+.menue_home {
+  position: relative;
+}
+
+.main_menue_rel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: transparent;
+}
+
+.main_menue2 {
+  width: 100%;
+}
+
+.main_menue2 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-right: 1px solid #8f8f8f;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s linear;
+}
+
+.main_menue2 .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 3px solid #8f8f8f;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .submenu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  width: 257px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+
+.nav-item:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-item .submenu li {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item .submenu li a {
+  display: block;
+  padding: 8px 30px;
+  color: #fff;
+}
+
+.nav-item .submenu li .submenu {
+  top: 10%;
+  left: 100%;
+}
+
+.nav-item .submenu li:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*--*********************************
+    ---------------------------------
+    --------HEADER CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.main_body {
+  background: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header_text h3 {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  color: #1f5234;
+  padding: 30px;
+}
+
+.form_text h3 {
+  font-weight: 700;
+  color: #0c3247;
+  font-size: 28px;
+  line-height: 1.3em;
+}
+
+.form_text h3 span {
+  color: rgb(255, 0, 0);
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------HEADER CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------FORM CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.form_txt h3 {
+  font-weight: 600;
+  color: #0c3247;
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.form_txt ul li {
+  padding-bottom: 10px;
+}
+
+.form_txt ul li p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form_txt ul li p span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form_img img {
+  width: 130px;
+  padding: 0 20px;
+}
+
+.form_main {
+  padding: 0 10px;
+  background: #1f5234;
+  padding-bottom: 30px;
+}
+
+.form_main input::placeholder {
+  color: #868e96;
+}
+
+.form_main textarea::placeholder {
+  color: #868e96;
+}
+
+.form_h3_1 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+  border-bottom: 1px solid #fff;
+}
+
+.form_p1 {
+  font-size: 13px;
+  color: #fff;
+  padding: 0 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form_p1 span {
+  font-weight: 700;
+  color: rgb(252, 0, 0);
+}
+
+.input_name input {
+  width: 100%;
+  height: 55px;
+  padding-left: 10px;
+  border: 1px solid #fff;
+  color: #868e96;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.input_email input {
+  width: 100%;
+  height: 55px;
+  padding-left: 10px;
+  border: 1px solid #fff;
+  color: #868e96;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.input_tel input {
+  width: 100%;
+  height: 55px;
+  padding-left: 10px;
+  border: 1px solid #fff;
+  color: #868e96;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.input_msg textarea {
+  width: 100%;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 1px solid #fff;
+  color: #868e96;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.form_p2 {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.form_btn1 {
+  border: 0;
+  margin: 0 auto;
+  background-color: #43835d;
+  display: flex;
+  color: #fff;
+  padding: 8px 17px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s linear;
+}
+
+.form_btn1:hover {
+  background-color: #a97b4e;
+}
+
+.form_btn1 i {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.form_btn2 {
+  border: 1px solid aliceblue;
+  background: red;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+  transition: all 0.3s linear;
+}
+
+.form_btn2:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 12px;
+  color: #fff;
+  background-color: #cb1f0a;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------FORM CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------BUTTON CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.call_button button {
+  width: 774px;
+  height: 60px;
+  background: #43835d;
+  color: #fff;
+  border: 0;
+  font-size: 24px;
+  margin: 70px 0;
+  transition: all 0.3s linear;
+  border-radius: 23px;
+}
+
+.call_button button:hover {
+  background-color: #a97b4e;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 12px;
+  color: #fff;
+}
+
+.call_button i {
+  font-size: 22px;
+  padding-left: 1px;
+}
+
+/*--*********************************
+     ---------------------------------
+     ---------BUTTON CSS END----------
+     ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------WORK  CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.work_area1 h3 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.work_area1 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 10px;
+}
+
+.work_area2 h3 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.work_area2 ul {
+  padding-left: 15px;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------WORK CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------CLIENT CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.client_work h3 {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.client_work h4 {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.client_work p {
+  font-weight: 400;
+  padding-bottom: 70px;
+}
+
+.client_middle p {
+  font-weight: 700;
+  padding-bottom: 70px;
+}
+
+.client_cover h3 {
+  padding-bottom: 15px;
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.client_cover ul {
+  padding-left: 15px;
+}
+
+.client_location h3 {
+  padding-bottom: 15px;
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------CLIENT CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------SOCIAL CSS START---------
+    ---------------------------------
+    *********************************--*/
+
+.social_area {
+  background-color: #eeeeee;
+  padding: 20px 0;
+  padding-bottom: 45px;
+}
+
+.social_left h3 {
+  color: #a97b4e;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  border-left: 4px solid #333333;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.social_left p a {
+  color: #000;
+}
+
+.social_right h3 {
+  color: #a97b4e;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  border-left: 4px solid #333333;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.social_icon {
+  background: #1f5234;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.social_icon i {
+  padding: 8px 10px;
+  font-size: 23px;
+}
+
+.social_button_left {
+  background: #1f5234;
+  border: 0;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.social_button_right {
+  background: #1f5234;
+  border: 0;
+  margin-top: 20px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------SOCIAL CSS END----------
+    ---------------------------------
+    *********************************--*/
+
+/*--*********************************
+    ---------------------------------
+    --------FOOTER CSS START---------
+    ---------------------------------
+    *********************************--*/
+.footer_area {
+  background: #1f5234;
+}
+
+.hooter_head h3 {
+  padding: 20px 0;
+  color: #ffffff;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+.footer_button {
+  color: #fff;
+  padding: 8px 14px;
+  background: #43835d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border: 0;
+}
+
+.footer_single {
+  margin-bottom: 20px;
+}
+
+.footer_single h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.footer_single p {
+  color: #fff;
+  border-bottom: 1px solid #676867;
+}
+
+.footer_single p a {
+  color: #fff;
+}
+
+.footer_single h3 a {
+  color: #fff;
+}
+
+/*--*********************************
+    ---------------------------------
+    ---------FOOTER CSS END----------
+    ---------------------------------
+    *********************************--*/

@@ -1,0 +1,248 @@
+#link-banner {
+  background-color: #EDF0F3;
+}
+
+.btn-container {
+  padding-left: 0px !important;
+}
+
+.job-page { min-height: 350px; }
+
+.job-page h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.job-page h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.job-page .hiring-org { color: #525252; }
+
+.job-page .company-logo-holder { background: #fff; margin: 0; }
+
+.job-page .job-info {
+  background: #f6f6f6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px 25px;
+}
+
+.job-page .job-info ul > li {
+  margin: 10px 0;
+}
+
+.job-page .job-info .glyphicon {
+  color: #ff3e97;
+  margin-right: 10px;
+}
+
+.job-page .job-desc {
+  line-height: 32px;
+}
+
+.job-page .mobile-share { margin: 10px 0 5px; }
+.job-page .mobile-job-actions {
+  background: #fff;
+  bottom: -2px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-box-shadow: 0px -2px 8px 2px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px -2px 8px 2px rgba(0,0,0,0.25);
+  box-shadow: 0px -2px 8px 2px rgba(0,0,0,0.25);
+}
+.job-page .mobile-job-actions .btn {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.job-page .mobile-job-actions .btn.btn-save {
+  border-color: transparent;
+  display: block;
+  font-weight: 500;
+  width: 100%;
+}
+
+.job-page .mobile-job-actions.already-applied { border-top: none; }
+.job-page .mobile-job-actions.already-applied .btn {
+  font-size: 14px;
+  border: none;
+  border-right: 1px solid #ccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.job-page .list-group-item {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.job-action-panel {
+  background: #ecf0f3;
+  border: none;
+  margin-top: 10px;
+  padding: 20px 20px 25px;
+}
+
+.job-action-panel h2 { margin-top: 10px; }
+
+.job-action-panel .coyinfo {
+  font-size: 14px;
+}
+
+.job-action-panel hr {
+  border-color: #d0d0d0;
+  margin: 30px 0;
+}
+
+.job-action-panel .btn { font-size: 16px; }
+
+.job-action-panel .alert { padding: 4px 16px; }
+
+.custom-icon {
+  background-size: cover !important;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.custom-icon.mail-sent {
+  background: url('../../../../img/basic/frontend/icon-apply-email.png') no-repeat;
+  height: 64px;
+  margin-bottom: 10px;
+  width: 64px;
+}
+
+.custom-icon.via-email-small {
+  background: url('../../../../img/basic/frontend/icon-apply-email.png') no-repeat;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-email-big {
+  background: url('../../../../img/basic/frontend/icon-apply-email.png') no-repeat;
+  height: 64px;
+  width: 64px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-sms-small {
+  background: url('../../../../img/basic/frontend/icon-apply-sms.png') no-repeat;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-sms-big {
+  background: url('../../../../img/basic/frontend/icon-apply-sms.png') no-repeat;
+  height: 64px;
+  width: 64px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-call-small {
+  background: url('../../../../img/basic/frontend/icon-apply-call.png') no-repeat;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-call-big {
+  background: url('../../../../img/basic/frontend/icon-apply-call.png') no-repeat;
+  height: 64px;
+  width: 64px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-whatsapp-small {
+  background: url('../../../../img/icon-jobapp-whatsapp.png') no-repeat;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.custom-icon.via-whatsapp-big {
+  background: url('../../../../img/icon-jobapp-whatsapp.png') no-repeat;
+  height: 64px;
+  width: 64px;
+  vertical-align: middle;
+}
+
+.modal.modal-apply .modal-body {
+    background: #fff;
+    color: #212121;
+    padding-bottom: 64px;
+  }
+  
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Tablet
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 991px) and (min-width: 768px) {
+  .job-page h1 { font-size: 20px; }
+  
+  .job-action-panel { padding-top: 10px; }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Mobile
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  #link-banner {
+    margin-top: -7px;
+    padding-top: 10px;
+  }
+
+  .job-page h1 { font-size: 20px; }
+  
+  .modal.modal-apply h2 { font-size: 18px; }
+  
+  .modal.modal-apply .modal-content {
+    height: 100%;
+    position: relative;
+  }
+  .modal.modal-apply .modal-body {
+    background: #fff;
+    bottom: 0;
+    color: #212121;
+    padding-bottom: 64px;
+    position: absolute;
+    top: auto;
+  }
+
+  .apply-options .apply-label { 
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .apply-options { display: flex; }
+  .apply-options--flex-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+  }
+  .apply-options--col {
+    flex-direction: column;
+    flex: 1 0 28%;
+    flex-grow: 0;
+    margin: 16px 2%;
+  }
+}

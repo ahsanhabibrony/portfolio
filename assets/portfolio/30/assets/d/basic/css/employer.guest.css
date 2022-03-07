@@ -1,0 +1,342 @@
+/*
+Theme Name: FastJobs Employer Landing Page
+Author: FastJobs Team
+Author URI: http://www.fastjobs.com.my
+Description: FastJobs is a platform that connects jobseekers and employers.
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Framework & Miscellaneous
+/*-----------------------------------------------------------------------------------*/
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+h1, h2, h3, h4 { font-weight: 500; }
+
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+
+a, a:active, a:focus, a:visited { outline: none; }
+
+.main-content { 
+  margin-bottom: 60px;
+  min-height: 480px; 
+}
+
+.btn-download {
+  background: url('../../../../img/basic/frontend/fj-img-sprite.png') no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  text-indent: -9999px;
+  width: 202px;
+}
+
+.btn-download.btn-sm {
+  height: 47px;
+  width: 150px;
+}
+
+.btn-download.btn-ios { background-position: 0 0; }
+.btn-download.btn-android { background-position: 0 -63px; }
+
+.btn-download.btn-sm.btn-ios { background-position: 0 -339px; }
+.btn-download.btn-sm.btn-android { background-position: 0 -387px; }
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Buttons
+/*-----------------------------------------------------------------------------------*/
+.btn {
+  font-weight: 400;
+  outline: none;
+}
+
+.btn-sm { padding: 5px 10px; }
+.btn-xs { padding: 1px 6px; }
+
+.btn-primary {
+  background-color: #ff3e97;
+  border-color: #ed3a8c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ed3a8c;
+  border-color: #ff3e97;
+}
+
+a.btn-primary { color: #fff !important; }
+a.btn-primary:hover,
+a.btn-primary:focus {
+  background: #ed3a8c !important;
+  border-color: #ff3e97 !important;
+}
+
+.btn-default {
+  background-color: #fff;
+  border-color: #d6dbe4;
+  color: #1f2c52;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #FE8AC7;
+  border-color: #f285bd;
+  color: #fff;
+}
+
+.btn-default > .glyphicon,
+.btn-default > .fa { color: #ff3e97; }
+.btn-default:hover > .glyphicon,
+.btn-default:hover > .fa,
+.btn-default:focus > .glyphicon,
+.btn-default:focus > .fa { color: #fff; }
+
+.input-group-btn > .btn-default { padding: 6px 16px; }
+
+.btn.disabled,
+.btn-default.disabled,
+.btn-default.disabled > .glyphicon,
+.btn-default.disabled > .fa,
+.btn-default.disabled:hover, 
+.btn-default.disabled:focus { background-color: #f9f9f9; color: #ccc; }
+
+.btn-primary.disabled,
+.btn-primary.disabled:hover, 
+.btn-primary.disabled:focus { background-color: #ff9fcb; border-color: #f36eab; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	Footer
+/*-----------------------------------------------------------------------------------*/
+.footer {
+  background: #1b284c;
+  color: #bec5d5;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.footer .navbar-brand { 
+  clear: both;
+  float: none;
+}
+
+.footer .navbar-brand > span.logo {
+  background: url('../../../../img/basic/fastjobs-logo-white.png') no-repeat top left;
+  background-size: 180px 50px;
+  display: inline-block;
+  height: 50px;
+  text-indent: -9999px;
+  width: 180px;
+}
+
+.footer a { color: #bec5d5; }
+.footer a:hover { color: #fff; text-decoration: none; }
+
+.footer ul {
+  margin-bottom: 30px;
+}
+
+.footer ul > li.list-title {
+  color: #7f8594;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer ul > li { margin: 8px 0; }
+
+.footer li.social-network {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer li.social-network > a {
+  background: url('../../../../img/basic/frontend/fj-img-sprite.png') no-repeat;
+  display: inline-block;
+  height: 45px;
+  text-indent: -999px;
+  width: 48px;
+}
+.footer li.social-network > a.facebook { background-position: 0 -127px; }
+.footer li.social-network > a.facebook:hover { background-position: 0 -183px; }
+.footer li.social-network > a.instagram { background-position: -56px -127px; }
+.footer li.social-network > a.instagram:hover { background-position: -56px -183px; }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .footer .navbar-brand {
+    background-size: 120px 32px;
+    height: 32px;
+    margin-top: 7px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .navbar-brand {
+    background-size: 120px 32px;
+    height: 32px;
+    width: 120px;
+  }
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Forms: Custom Checkbox & Radio Button
+/*-----------------------------------------------------------------------------------*/
+
+.control-group {
+  display: inline-block;
+  vertical-align: top;
+  background: #fff;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 200px;
+  height: 210px;
+  margin: 10px;
+}
+
+.control {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control__indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border: 1px solid #d6dbe4;
+}
+
+.control--checkbox .control__indicator { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.control--radio .control__indicator { border-radius: 50%; }
+
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator { border-color: #ff3e97; }
+
+.control input:checked ~ .control__indicator { border-color: #ff3e97; }
+
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator { }
+
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  border-color: #d6dbe4;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.control input:checked ~ .control__indicator:after { display: block; }
+
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 3px;
+  width: 6px;
+  height: 14px;
+  border: solid #ff3e97;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.control--checkbox input:disabled ~ .control__indicator:after { border-color: #7b7b7b; }
+
+.control--radio .control__indicator:after {
+  left: 5px;
+  top: 5px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #ff3e97;
+}
+.control--radio input:disabled ~ .control__indicator:after { background: #7b7b7b; }
+
+.control--sm {
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 26px;
+}
+
+.control--sm .control__indicator {
+  height: 20px;
+  width: 20px;
+}
+
+.control--sm.control--checkbox .control__indicator:after {
+  height: 12px;
+  left: 6px;
+  top: 2px;
+}
+
+.control--sm.control--radio .control__indicator:after {
+  left: 4px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+}
+
+.control--block {
+  border: 1px solid #ccc;
+  display: block;
+  padding: 8px 15px;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.control--block > span {
+  font-weight: 300;
+  margin-left: 35px;
+}
+
+.control--block .control__indicator {
+  top: 8px;
+  left: 15px;
+}
+
+.control.control--block:hover,
+.control.control--block:focus {
+  background: #fcfcfc;
+  border-color: #ff3e97;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Error page
+/*-----------------------------------------------------------------------------------*/
+.error-page h1 { font-weight: bold; }
+.error-page .error-content { padding: 40px 20px; }

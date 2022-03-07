@@ -1,0 +1,139 @@
+.job-post {
+  color: #212121;
+  padding: 15px 15px 5px;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+}
+
+.job-post h2 { 
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+ul.job-tag { margin: 5px 0 15px; }
+
+.job-tag > li {
+  border: 1px solid #427eb0;
+  color: #427eb0;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 6px 3px 0;
+  padding: 3px 15px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.job-tag > li:first-child { margin-left: 0; }
+.job-tag > li:last-child { margin-right: 0; }
+
+.job-post .jobcoy { 
+  line-height: 30px;
+  margin: 15px 0 5px; 
+}
+
+.job-post .img-coylogo { margin: 0 auto; }
+
+.job-post .job-salary,
+.job-page .job-salary {
+  color: #ff3e97;
+  display: block;
+  font-weight: 500;
+}
+
+a.adbox {
+  display: inline-block;
+  width: 100%;
+}
+
+a.adbox:hover h2 { color: #19598b; }
+
+.job-page .job-salary { font-size: 20px; }
+
+.job-page .salmin {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;    
+}
+
+.featured-tag {
+  background: #FFD600;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #212121;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0 0 10px;
+  padding: 3px 15px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Tablet
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 991px) and (min-width: 768px) {
+   .job-post h2 { font-size: 22px; }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Mobile
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  .jobs {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .job-post {
+    background: #fff;
+    border: none;
+    margin: 0 0 5px 0;
+    padding: 15px;
+  }
+
+  .job-post h2 {
+    font-size: 20px;
+  }
+   
+  .job-post .jobcoy {
+    line-height: 22px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+  }
+
+  .job-post .coyinfo {
+    display:table-cell;
+    vertical-align:middle;
+    height: 100%;
+  }
+   
+  .job-post .coylogo-holder {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+  }
+
+  .job-post .img-coylogo {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .job-tag > li {
+    font-size: 13px;
+    margin: 3px 4px 3px 0;
+  }
+}

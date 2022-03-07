@@ -1,0 +1,414 @@
+body {
+    color: #212121;
+    font-family: Roboto, Helvetica, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.background-blue {
+    background: #8DC180;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+}
+
+.background-jobs {
+    position: absolute;
+    left: 28%;
+    bottom: 0;
+    height: 100%;
+    width: 45%;
+    z-index: 1;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Navigation
+/*-----------------------------------------------------------------------------------*/
+.navbar {
+    background: none !important;
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar > .container .navbar-brand, 
+.navbar > .container-fluid .navbar-brand { margin-left: -15px; }
+
+.navbar-brand > span.logo {
+    background: url('../../../../img/fastjobs-logo-blue.png') no-repeat left top;
+    background-size: cover;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    text-indent: -900px;
+    width: 255px;
+}
+
+.navbar-nav > li { position: relative; }
+.navbar-nav > li > a,
+.navbar-nav > li > .dropdown > a {
+    color: #000;
+    font-weight: 400;
+}
+
+.navbar-nav > li a:hover,
+.navbar-nav > li a.active,
+.navbar-nav > li a:focus,
+.navbar-nav > li.active a,
+.open > .dropdown-toggle.focus,
+.open > .dropdown-toggle:focus,
+.open > .dropdown-toggle:hover,
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+    background: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-dropdown { padding: 0 15px; }
+
+.navbar-nav > li > .dropdown > a {
+    display: block;
+}
+
+.navbar-nav .nav-dropdown .dropdown-menu {
+    background: #fff;
+    border: none;
+    color: #fff;
+    padding: 0;
+    min-width: 180px;
+    width: auto;
+}
+
+.nav-dropdown .dropdown-menu > li > a {
+    border-bottom: 1px solid #e4e4e4;
+    color: #3F51B5;
+    font-size: 14px;
+    padding: 15px;
+}
+.navbar .dropdown-menu > li > a:hover,
+.navbar .dropdown-menu > li > a:focus {
+    background: #f5f5f5;
+    color: #43B02A;
+}
+.navbar .nav-dropdown .dropdown-menu > li.last > a { border-bottom: none; }
+
+.navbar .country-dropdown .btn-country-dropdown { color: #3F51B5; }
+
+.navbar .country-dropdown .country-menu {
+    background: #fff;
+    border: 1px solid #F2F3F5;
+    color: #3F51B5;
+    padding: 0;
+}
+
+.navbar .country-dropdown .icon-country-flag { border: 1px solid #F2F3F5; }
+
+.navbar .country-menu > li > a {
+    color: #3F51B5;
+    border-bottom: 1px solid #F2F3F5;
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar .country-menu > li > a:hover,
+.navbar .country-menu > li > a:focus { color: #43B02A; }
+
+.navbar .country-menu > li.last > a { border-bottom: none; }
+
+.navbar .country-dropdown .btn-language-dropdown {
+    border-left: none;
+    font-weight: 500;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Jobseeker Section
+/*-----------------------------------------------------------------------------------*/
+.section-jobseeker,
+.section-employer {
+    font-size: 18px;
+    z-index: 10;
+    position: relative;
+}
+
+.section-jobseeker h1,
+.section-employer h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 10;
+    width: 105%;
+}
+
+.section-jobseeker .btn-primary {
+    background: #3F51B5;
+    border-color: #303F9F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 12px 50px;
+}
+
+.section-jobseeker .btn-primary.active.focus,
+.section-jobseeker .btn-primary.active:focus,
+.section-jobseeker .btn-primary.active:hover,
+.section-jobseeker .btn-primary.focus:active,
+.section-jobseeker .btn-primary:active:focus,
+.section-jobseeker .btn-primary:active:hover {
+    background: #303F9F;
+    border-color: #3F51B5;
+}
+
+.section-jobseeker .description {
+	width: 90%;
+}
+
+.jobseeker-download {
+  font-size: 15px;
+  padding-left: 15px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 2;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Employer Section
+/*-----------------------------------------------------------------------------------*/
+.section-employer {
+    color: #fff;
+    padding-left: 140px;
+}
+
+.section-employer .btn-primary {
+    background: #43B02A;
+    border-color: #43B02A;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 12px 50px;
+}
+
+.section-employer .btn-primary.active.focus,
+.section-employer .btn-primary.active:focus,
+.section-employer .btn-primary.active:hover,
+.section-employer .btn-primary.focus:active,
+.section-employer .btn-primary:active:focus,
+.section-employer .btn-primary:active:hover {
+    background: #C51162;
+    border-color: #FF4081;
+}
+
+.section-employer .description { 
+    padding-top: 3px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7); 
+    width: 100%; 
+}
+
+.section-employer .existing-text {
+    background: #1f2c52; 
+    font-size: 14px; 
+    margin-left: 68px;
+    padding: 10px;
+}
+
+.employer-help {
+    color: #fff;
+    font-size: 15px;
+    left: 60%;
+    position: absolute;
+    bottom: 20px;
+    width: 35%;
+    z-index: 10;
+}
+
+.bottom-text {
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.text-shadow { text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7); }
+
+a.link-primary { color: #43B02A; }
+
+@media (max-height: 601px) {
+    .background-jobs { top: 0; }
+
+    .jobseeker-download,
+    .employer-help { display: none; }
+}
+
+@media (max-width: 1080px) and (min-width: 992px) {
+    .section-employer { padding-left: 60px; }
+    .section-jobseeker h1, .section-employer h1 { font-size: 40px; }
+}
+
+@media (max-width: 991px) {
+    body {
+        background: #8DC180;
+        color: #fff;
+        padding: 0;
+    }
+
+    .container { width: 100%; }
+
+    .navbar {
+        background: #1f2c52;
+        color: #fff;
+        position: static;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar > .container .navbar-brand { margin-left: 0; }
+    
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand { margin: 0; }
+    
+    .navbar-brand > span.logo {
+        background-image: url('../../../../img/basic/fastjobs-logo.png');
+    }
+
+    .navbar .country-dropdown .btn-country-dropdown {
+        color: #fff;
+    }
+
+    .navbar .navbar-toggle {
+        border-color: #43B02A;
+        border-width: 2px;
+        color: #fff;
+        margin: 0 10px 0;
+        padding: 5px 10px;
+    }
+    
+    .navbar .navbar-toggle:hover,
+    .navbar .navbar-toggle:focus {
+      background: none;
+    }
+    
+    .navbar-nav > li > a,
+    .navbar-nav > li > .dropdown > a {
+        font-size: 15px;
+        padding-bottom: 0;
+        padding-top: 8px;
+    }
+
+    .section-jobseeker,
+    .section-employer {
+        height: auto;
+        padding: 80px 40px 40px;
+    }
+
+    .section-jobseeker {
+        background: url('../../../../img/basic/frontend/home-job-waiter-tablet.png') no-repeat #fff;
+        background-position: right 50px;
+        color: #212121;
+        padding-top: 120px;
+    }
+
+    .section-jobseeker .description { width: 65%; }
+
+    .section-employer {
+        background: url('../../../../img/basic/frontend/home-job-barista-tablet.png') no-repeat;
+        background-position: -100px 25px;
+        min-height: 600px;
+    }
+
+    .section-jobseeker h1,
+    .section-employer h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 0;
+        margin-bottom: 20px
+    }
+
+    .section-employer h1 { margin-top: 70px; }
+
+    .bottom-text {
+        margin: 80px 0 20px;
+        position: static;
+    }
+
+    .jobseeker-download,
+    .employer-help{
+        margin: 80px 0 20px;
+        position: static;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar { min-height: 50px; }
+
+    .section-jobseeker {
+        background: #fff;
+        min-height: 300px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .section-employer {
+        background: #8DC180;
+        min-height: 300px;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .section-jobseeker .description { width: 100%; }
+
+    .section-jobseeker .btn-primary,
+    .section-employer .btn-primary {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .navbar-nav > li > a,
+    .navbar-nav > li > .dropdown > a {
+        padding: 12px 20px;
+    }
+
+    .navbar-nav .nav-dropdown { padding-bottom: 15px; }
+
+    .navbar-nav .nav-dropdown .dropdown-menu {
+        background: none;
+        border: none;
+        color: #fff;
+        padding: 0;
+    }
+
+    .nav-dropdown .dropdown-menu > li > a {
+        border-bottom: 1px solid #293a6b;
+        color: #bec5d5;
+    }
+    .navbar .dropdown-menu > li > a:hover,
+    .navbar .dropdown-menu > li > a:focus {
+        background: none;
+        color: #fff;
+    }
+
+    .navbar-nav .open .dropdown-menu .dropdown-header,
+    .navbar-nav .open .dropdown-menu > li > a { padding: 15px; }
+
+    .section-jobseeker h1,
+    .section-employer h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    
+    .section-employer h1 { margin-top: 25px; }
+
+    .bottom-text {
+        display: block;
+        margin: 80px 0 20px;
+    }
+  
+  
+}

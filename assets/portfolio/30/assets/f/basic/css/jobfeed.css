@@ -1,0 +1,272 @@
+/*-----------------------------------------------------------------------------------*/
+/*	Framework
+/*-----------------------------------------------------------------------------------*/
+body.jobfeed { 
+/*  background: #F3F4F8;*/
+/*background: #F9F9F9;*/
+  margin-top: 60px;
+}
+
+h1 { 
+  font-weight: 500;
+  font-size: 24px;
+  margin: 5px 0 15px; 
+}
+
+.breadcrumb { background: #ecf0f3; }
+
+.keyword-tags { margin: 0 0 10px; }
+
+.keyword-tag {
+  background: #ecf0f3;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #777;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 3px 5px 2px 0;
+  padding: 3px 15px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Navigation
+/*-----------------------------------------------------------------------------------*/
+#navbar-search {
+  position: fixed;
+  top: 60px;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 6;
+}
+
+#navbar-search.nav-up { top: -80px; }
+
+.navbar-search {
+  background: #ecf0f3;
+  border-bottom: 3px solid #ff87c7;
+  color: #000;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar-search .container { padding-top: 0; }
+
+.navbar-search ul.radio { margin: 5px 0 0; }
+.navbar-search ul.radio > li {
+  display: inline;
+  margin: 0 15px;
+}
+.navbar-search ul.radio > li:last-child { margin-right: 0; }
+
+.navbar-search ul.radio > li.divider {
+  border-right: 1px solid #cacdcf;
+  margin: 0 10px 0 0;
+  padding: 5px 0;
+}
+
+.navbar-search ul.radio label {
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.navbar-search .location-option li {
+  border-bottom: 1px solid #e8e8e8;
+  cursor: pointer;
+  padding: 7px 20px;
+}
+.navbar-search .location-option li:last-child { 
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.navbar-search .location-option li:hover,
+.navbar-search .location-option li.active { font-weight: 500; }
+
+.navbar-search .btn.with-pref {
+  border-color: #1f659b;
+  border-width: 2px;
+  font-weight: 500;
+  padding: 5px 12px;
+}
+
+.navbar-search .with-pref .input-group-addon,
+.navbar-search .with-pref .form-control {
+  border-color: #1f659b;
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.navbar-search .remove-search-keyword {
+  color: #1f659b;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+}
+
+.navbar .dropdown-toggle,
+.navbar-search .dropdown-toggle {
+  font-size: 16px;
+  text-align: left;
+}
+
+.navbar .dropdown-label,
+.navbar-search .dropdown-label{
+  float: left;
+  width: 96%;
+}
+
+.navbar .dropdown .dropdown-menu,
+.navbar-search .dropdown .dropdown-menu{
+  width: 100%;
+}
+
+.navbar .form-control,
+.navbar-search .form-control {
+  font-size: 16px;
+  height: 37px;
+}
+
+.navbar-search .form-control.selected { border: 2px solid #1f659b; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sidebar
+/*-----------------------------------------------------------------------------------*/
+.sidebar .filters-container {
+  border-left: 1px solid #ebebeb;
+  font-size: 14px;
+  padding: 20px 0 20px 30px;
+}
+
+.sidebar .filter-option {
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.sidebar .filter-option.last { margin-bottom: 0; }
+
+.sidebar .filter-option h4 {
+  border-bottom: 1px solid #ccc;
+  color: #707070;
+  font-size: 15px;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.sidebar label {
+  vertical-align: middle;
+  width: 90%;
+}
+
+.sidebar .filter-option > ul > li {
+  margin: 5px 0;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.filter-option .radio label, 
+.filter-option .checkbox label {
+  padding-left: 10px;
+}
+
+.modal-header .mobile-header { padding-bottom: 15px; }
+.modal-header .mobile-header a { color: #fff; }
+
+.modal-body .filter-list li,
+.modal-body .filter-links a { 
+  border-bottom: 1px solid #f8f8f8;
+  color: #212121;
+  cursor: pointer;
+  display: block;
+  padding: 12px;
+}
+.modal-body .filter-list li:hover,
+.modal-body .filter-links a:hover{ background: #ecf0f3; text-decoration: none; }
+
+.modal-body .filter-list li.current,
+.modal-body .filter-links li.current{ font-weight: 500; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Tablet
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 991px) and (min-width: 768px) {
+  body.jobfeed { padding-top: 110px; }
+  body.jobfeed.search { padding-top: 100px; }
+
+  .navbar .form-control, 
+  .navbar-search .form-control {
+    font-size: 13px;
+  }
+
+  .navbar-search .btn,
+  .navbar-search .btn.with-pref {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .navbar-search ul.radio > li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 20px 0 0;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive - Mobile
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  body.jobfeed { 
+/*    background: #F3F4F8;*/
+    background: #eee;
+    padding-top: 50px; 
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+    
+  .navbar .form-control, 
+  .navbar-search .form-control {
+      font-size: 15px;
+      height: 35px;
+  }
+  .navbar-search { margin-bottom: 0; padding-bottom: 5px; padding-top: 0; }
+  .navbar-search .filter-toolbar {
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  .navbar-search .filter-toolbar.last {
+    border-right: none;
+    margin-right: 0;
+  }
+  .navbar-search .filter-label {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  .navbar-search h6 {
+    cursor: pointer;
+    font-size: 12px;
+    margin: 3px 7px;
+  }
+  .navbar-search .filter-toolbar .caret.text-right {
+    float: right;
+    margin: 5px 2px 0;
+  }
+
+  .modal.right.modal-filter .modal-header { height: 52px; }
+
+  .modal-header .mobile-header { 
+    margin-top: 4px;
+    padding-bottom: 0;
+  }
+  
+  .keyword-tag {
+    background: #f7f7f7;
+    font-size: 12px;
+  }
+}
